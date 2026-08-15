@@ -5759,8 +5759,8 @@
   "license": "MIT",
   "stars": 9,
   "compat": "unknown",
-  "desc_en": "Cross-session memory for DSH: SQLite + human-editable Markdown mirror, autoDream consolidation, fully-offline semantic search (local embedding / rerank / clustering), 198 tests.",
-  "desc_zh": "Mneme——把记忆主权还给人的记忆插件：SQLite + 可编辑 Markdown 双写，autoDream 梦境巩固，完全离线语义检索（本地向量 / 精排 / 聚类），198 个测试护航。",
+  "desc_en": "Cross-session memory with memory sovereignty: SQLite + human-editable Markdown mirror, autoDream consolidation with self-correction (update decisions), failure tracking, and fully-offline semantic search (local embedding / rerank / clustering), 233 tests.",
+  "desc_zh": "记忆主权跨会话记忆：SQLite + 可编辑 Markdown 双写，autoDream 自我修正（update 决策）+ 失败追踪，完全离线语义检索（本地向量 / 精排 / 聚类），233 测试。",
   "sourceNote": "新增",
   "featured": false,
   "_lists": [
