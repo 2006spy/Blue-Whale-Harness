@@ -1894,6 +1894,7 @@
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
 | [whyihaveyou/dsh-themes](https://github.com/whyihaveyou/dsh-themes) | 皮肤中心：151 款昼夜成对皮肤一包打尽——网格预览、搜索、DSH Web UI 内一键试穿。 | Skin Center: 151 day/night skin pairs in one package — grid previews, search, one-click tr | 1 | CSS | yes |
+| [lengduan/dsh-815-skin](https://github.com/lengduan/dsh-815-skin) | Web GUI 史料皮肤：对话区陈坚油画《公元一九四五年九月九日九时》（南京受降），侧栏挂《终战诏书》。加载即生效、卸载即还原。 | Historical Web GUI skin: Chen Jian 1945 Nanjing surrender painting as chat bg; Imperial Rescript in sidebar. | 0 | TypeScript | yes |
 
 ## 如何生成 / 更新
 
