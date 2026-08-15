@@ -29460,5 +29460,53 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "Airmetro/dsh-update-checker",
+  "name": "dsh-update-checker",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "DeepSeek Harness (DSH) update checker plugin: automatically checks the latest npm version and shows a banner at the top of the GUI, follows the system language for Chinese/English, and offers one-click install-and-restart of the service.",
+  "desc_zh": "DeepSeek Harness (DSH) 更新检测插件：自动检查 npm 最新版并在 GUI 顶部横幅提示，支持中英文跟随系统语言、一键安装更新并重启服务。",
+  "sourceNote": "用户提交",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "Junius-Q/dsh-for-obsidian",
+  "name": "dsh-for-obsidian",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Use DeepSeek Harness (dsh) inside Obsidian — a local AI agent in a Claudian-style interface that works with your vault.",
+  "desc_zh": "在 Obsidian 中使用 DeepSeek Harness（dsh）——一个仿 Claudian 风格的本地 AI 智能体，处理你的 vault。",
+  "sourceNote": "用户提交",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "cyanfish-x/dsh-live2d-pets",
+  "name": "dsh-live2d-pets",
+  "category": "ui",
+  "language": "TypeScript",
+  "license": "unknown",
+  "stars": 4,
+  "compat": "unknown",
+  "desc_en": "DSH (DeepSeek Harness) Live2D desktop-pet plugin: loads Live2D models from any external URL or a local model path.",
+  "desc_zh": "DSH（DeepSeek Harness）的 Live2D 桌宠插件：支持任意外部 URL 或本地模型地址加载 Live2D 模型。",
+  "sourceNote": "用户提交",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]

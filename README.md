@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-15 ｜ 共 **1801** 个仓库 ｜ 真·DSH 插件 **1660** 个
+> 自动生成于 2026-08-15 ｜ 共 **1804** 个仓库 ｜ 真·DSH 插件 **1663** 个
 
 ## 统计
 
-- 仓库总数：**1801**
-- 真·DSH 插件：**1660**
+- 仓库总数：**1804**
+- 真·DSH 插件：**1663**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -19,8 +19,8 @@
 - **utility** — 345 个仓库，★17630
 - **orchestration** — 197 个仓库，★15424
 - **session** — 229 个仓库，★14261
-- **tools** — 568 个仓库，★14098
-- **ui** — 175 个仓库，★4175
+- **tools** — 570 个仓库，★14098
+- **ui** — 176 个仓库，★4179
 - **uncategorized** — 1 个仓库，★668
 - **sandbox** — 9 个仓库，★175
 - **acp** — 66 个仓库，★152
@@ -1036,7 +1036,7 @@
 | [DreamZhongJu/dsh-codex-sync](https://github.com/DreamZhongJu/dsh-codex-sync) | 将 DeepSeek-on-Codex 的聊天记录导入 DeepSeek Harness（dsh） | Import DeepSeek-on-Codex chat history into DeepSeek Harness (dsh) | 0 | TypeScript | no |
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 
-### tools（568）
+### tools（570）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1608,8 +1608,10 @@
 | [howlma/dsh-desktop](https://github.com/howlma/dsh-desktop) | (无描述) | (no description) | 0 | JavaScript | yes |
 | [TT432/dsh-dcp](https://github.com/TT432/dsh-dcp) | (无描述) | (no description) | 0 | JavaScript | yes |
 | [yauntyour/DSH-Multimodal](https://github.com/yauntyour/DSH-Multimodal) | DSH 多模态输入插件：为不同类型的文件（图片 / 视频 / 音频 / 文本）配置独立的处理模型链，在文件进入会话模型之前，先用预设模型把它处理成 Prompt Tokens（文本 | DSH multimodal input plugin: configures an independent processing model chain for each fil | 0 | TypeScript | yes |
+| [Airmetro/dsh-update-checker](https://github.com/Airmetro/dsh-update-checker) | DeepSeek Harness (DSH) 更新检测插件：自动检查 npm 最新版并在 GUI 顶部横幅提示，支持中英文跟随系统语言、一键安装更新并重启服务。 | DeepSeek Harness (DSH) update checker plugin: automatically checks the latest npm version  | 0 | JavaScript | yes |
+| [Junius-Q/dsh-for-obsidian](https://github.com/Junius-Q/dsh-for-obsidian) | 在 Obsidian 中使用 DeepSeek Harness（dsh）——一个仿 Claudian 风格的本地 AI 智能体，处理你的 vault。 | Use DeepSeek Harness (dsh) inside Obsidian — a local AI agent in a Claudian-style interfac | 0 | TypeScript | yes |
 
-### ui（175）
+### ui（176）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1664,6 +1666,7 @@
 | [urzeye/dsh-outline](https://github.com/urzeye/dsh-outline) | DeepSeek Harness（DSH）Web GUI 的实时大纲插件 | A real-time outline plugin for the DeepSeek Harness (DSH) Web GUI. | 4 | TypeScript | yes |
 | [Dpf555/dsh-workbench](https://github.com/Dpf555/dsh-workbench) | DeepSeek Harness Web GUI 的 VS Code 风格三栏资源管理器 + Monaco 编辑器插件 | VS Code-style three-column Explorer + Monaco editor plugin for the DeepSeek Harness web GU | 4 | JavaScript | yes |
 | [ChenRuoT/dsh-sidebar-qa](https://github.com/ChenRuoT/dsh-sidebar-qa) | 一个基于DSH-better-sidebar的侧边栏提问tab，实现类codex的侧边提问或claude code的/btw功能 | A sidebar Q&A tab built on DSH-better-sidebar, implementing Codex-style side questions or  | 4 | TypeScript | yes |
+| [cyanfish-x/dsh-live2d-pets](https://github.com/cyanfish-x/dsh-live2d-pets) | DSH（DeepSeek Harness）的 Live2D 桌宠插件：支持任意外部 URL 或本地模型地址加载 Live2D 模型。 | DSH (DeepSeek Harness) Live2D desktop-pet plugin: loads Live2D models from any external UR | 4 | TypeScript | yes |
 | [chen-001/dsh-chat-width](https://github.com/chen-001/dsh-chat-width) | 调整 DSH 回复宽度 | Adjust the width of dsh's reply | 3 | TypeScript | yes |
 | [havingautism/dsh-ultra-ui](https://github.com/havingautism/dsh-ultra-ui) | (无描述) | (no description) | 3 | TypeScript | yes |
 | [zhaoscsc/dsh-wikilink](https://github.com/zhaoscsc/dsh-wikilink) | dsh-wikilink — DSH 插件（界面） | Obsidian-style [[wikilink]] mentions for the DeepSeek Harness web GUI: fuzzy-search note t | 3 | JavaScript | yes |

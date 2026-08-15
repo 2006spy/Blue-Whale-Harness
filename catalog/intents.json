@@ -88718,5 +88718,132 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-15T06:48:13.525Z"
+ },
+ "Airmetro/dsh-update-checker": {
+  "repo": "Airmetro/dsh-update-checker",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "DeepSeek Harness (DSH) update checker plugin: automatically checks the latest npm version and shows a banner at the top of the GUI, follows the system language for Chinese/English, and offers one-click install-and-restart of the service.",
+  "intentEn": "DeepSeek Harness (DSH) update checker plugin: automatically checks the latest npm version and shows a banner at the top of the GUI, follows the system language for Chinese/English, and offers one-click install-and-restart of the service.",
+  "intentZh": "DeepSeek Harness (DSH) 更新检测插件：自动检查 npm 最新版并在 GUI 顶部横幅提示，支持中英文跟随系统语言、一键安装更新并重启服务。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-15T06:55:04.324Z",
+  "updated_at": "2026-08-15T06:55:04.324Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-15T06:55:04.324Z"
+ },
+ "Junius-Q/dsh-for-obsidian": {
+  "repo": "Junius-Q/dsh-for-obsidian",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "obsidian-integration"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Use DeepSeek Harness (dsh) inside Obsidian — a local AI agent in a Claudian-style interface that works with your vault.",
+  "intentEn": "Use DeepSeek Harness (dsh) inside Obsidian — a local AI agent in a Claudian-style interface that works with your vault.",
+  "intentZh": "在 Obsidian 中使用 DeepSeek Harness（dsh）——一个仿 Claudian 风格的本地 AI 智能体，处理你的 vault。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-15T06:55:04.324Z",
+  "updated_at": "2026-08-15T06:55:04.324Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-15T06:55:04.324Z"
+ },
+ "cyanfish-x/dsh-live2d-pets": {
+  "repo": "cyanfish-x/dsh-live2d-pets",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "ui",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "DSH (DeepSeek Harness) Live2D desktop-pet plugin: loads Live2D models from any external URL or a local model path.",
+  "intentEn": "DSH (DeepSeek Harness) Live2D desktop-pet plugin: loads Live2D models from any external URL or a local model path.",
+  "intentZh": "DSH（DeepSeek Harness）的 Live2D 桌宠插件：支持任意外部 URL 或本地模型地址加载 Live2D 模型。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm",
+   "react",
+   "cordis"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/schemastery",
+   "@deepseek-ai/dsh-agent",
+   "react"
+  ],
+  "entry": null,
+  "stars": 4,
+  "forks": 0,
+  "created_at": "2026-08-15T06:55:04.324Z",
+  "updated_at": "2026-08-15T06:55:04.324Z",
+  "license": "unknown",
+  "open_issues": 0,
+  "topics": [
+   "cubism",
+   "deepseek-harness",
+   "desktop-pet",
+   "dsh",
+   "dsh-plugin",
+   "live2d",
+   "mascot",
+   "plugin",
+   "webgl"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-15T06:55:04.324Z"
  }
 }
