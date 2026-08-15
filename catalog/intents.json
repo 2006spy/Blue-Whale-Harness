@@ -88665,5 +88665,58 @@
   "compat": null,
   "featured": false,
   "analyzed_at": "2026-08-15T03:47:14.371Z"
+ },
+ "yauntyour/DSH-Multimodal": {
+  "repo": "yauntyour/DSH-Multimodal",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "DSH multimodal input plugin: configures an independent processing model chain for each file type (image / video / audio / text). Before a file enters the conversation model, a preset model first converts it into prompt tokens (text), which are then passed to the conversation model. The plugin adds a dedicated Multimodal page to the DSH settings.",
+  "intentEn": "DSH multimodal input plugin: configures an independent processing model chain for each file type (image / video / audio / text). Before a file enters the conversation model, a preset model first converts it into prompt tokens (text), which are then passed to the conversation model. The plugin adds a dedicated Multimodal page to the DSH settings.",
+  "intentZh": "DSH 多模态输入插件：为不同类型的文件（图片 / 视频 / 音频 / 文本）配置独立的处理模型链，在文件进入会话模型之前，先用预设模型把它处理成 Prompt Tokens（文本），再交给会话模型。插件在 DSH 设置中新增独立的 Multimodal 页面。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm",
+   "react",
+   "cordis",
+   "tsdown"
+  ],
+  "keyDeps": [
+   "@deepseek-ai/cordis",
+   "@deepseek-ai/dsh-llm",
+   "@deepseek-ai/dsh-settings",
+   "react"
+  ],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-15T02:21:34Z",
+  "updated_at": "2026-08-15T06:45:22Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "agent",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "dsh-plugins"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-15T06:48:13.525Z"
  }
 }

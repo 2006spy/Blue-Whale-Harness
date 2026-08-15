@@ -29444,5 +29444,21 @@
    "plugin",
    "manual"
   ]
+ },
+ {
+  "repo": "yauntyour/DSH-Multimodal",
+  "name": "DSH-Multimodal",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "DSH multimodal input plugin: configures an independent processing model chain for each file type (image / video / audio / text). Before a file enters the conversation model, a preset model first converts it into prompt tokens (text), which are then passed to the conversation model. The plugin adds a dedicated Multimodal page to the DSH settings.",
+  "desc_zh": "DSH 多模态输入插件：为不同类型的文件（图片 / 视频 / 音频 / 文本）配置独立的处理模型链，在文件进入会话模型之前，先用预设模型把它处理成 Prompt Tokens（文本），再交给会话模型。插件在 DSH 设置中新增独立的 Multimodal 页面。",
+  "sourceNote": "用户提交",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]

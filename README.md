@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-15 ｜ 共 **1800** 个仓库 ｜ 真·DSH 插件 **1659** 个
+> 自动生成于 2026-08-15 ｜ 共 **1801** 个仓库 ｜ 真·DSH 插件 **1660** 个
 
 ## 统计
 
-- 仓库总数：**1800**
-- 真·DSH 插件：**1659**
+- 仓库总数：**1801**
+- 真·DSH 插件：**1660**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -19,7 +19,7 @@
 - **utility** — 345 个仓库，★17630
 - **orchestration** — 197 个仓库，★15424
 - **session** — 229 个仓库，★14261
-- **tools** — 567 个仓库，★14098
+- **tools** — 568 个仓库，★14098
 - **ui** — 175 个仓库，★4175
 - **uncategorized** — 1 个仓库，★668
 - **sandbox** — 9 个仓库，★175
@@ -1036,7 +1036,7 @@
 | [DreamZhongJu/dsh-codex-sync](https://github.com/DreamZhongJu/dsh-codex-sync) | 将 DeepSeek-on-Codex 的聊天记录导入 DeepSeek Harness（dsh） | Import DeepSeek-on-Codex chat history into DeepSeek Harness (dsh) | 0 | TypeScript | no |
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 
-### tools（567）
+### tools（568）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1607,6 +1607,7 @@
 | [sleepinginsummer/dsh-rtk-optimizer](https://github.com/sleepinginsummer/dsh-rtk-optimizer) | (无描述) | (no description) | 0 | JavaScript | yes |
 | [howlma/dsh-desktop](https://github.com/howlma/dsh-desktop) | (无描述) | (no description) | 0 | JavaScript | yes |
 | [TT432/dsh-dcp](https://github.com/TT432/dsh-dcp) | (无描述) | (no description) | 0 | JavaScript | yes |
+| [yauntyour/DSH-Multimodal](https://github.com/yauntyour/DSH-Multimodal) | DSH 多模态输入插件：为不同类型的文件（图片 / 视频 / 音频 / 文本）配置独立的处理模型链，在文件进入会话模型之前，先用预设模型把它处理成 Prompt Tokens（文本 | DSH multimodal input plugin: configures an independent processing model chain for each fil | 0 | TypeScript | yes |
 
 ### ui（175）
 
