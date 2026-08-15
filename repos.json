@@ -3029,6 +3029,38 @@
   ]
  },
  {
+  "repo": "maxwell-feng/dsh-windows-ocr",
+  "name": "dsh-windows-ocr",
+  "category": "llm",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 6,
+  "compat": "unknown",
+  "desc_en": "Local vision for text-only models: built-in Windows OCR (Windows.Media.Ocr) — only recognized text goes to the API, image bytes never leave your machine.",
+  "desc_zh": "给纯文本模型加本地看图：Windows 自带 OCR 引擎本地识别图片，只把文字发给模型，图片字节不离开本机。",
+  "sourceNote": "新增",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "maxwell-feng/dsh-tesseract-ocr",
+  "name": "dsh-tesseract-ocr",
+  "category": "llm",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 1,
+  "compat": "unknown",
+  "desc_en": "Local vision for text-only models: Tesseract OCR — only recognized text goes to the API, image bytes never leave your machine (Linux/macOS).",
+  "desc_zh": "给纯文本模型加本地看图：Tesseract OCR 本地识别图片，只把文字发给模型，图片字节不离开本机（Linux/macOS）。",
+  "sourceNote": "新增",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
   "repo": "FlashingChen/dsh-worktree",
   "name": "dsh-worktree",
   "category": "tools",
