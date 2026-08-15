@@ -88845,5 +88845,81 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-15T06:55:04.324Z"
+ },
+ "maxwell-feng/dsh-windows-ocr": {
+  "repo": "maxwell-feng/dsh-windows-ocr",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "llm",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Local vision for text-only models: built-in Windows OCR (Windows.Media.Ocr) — only recognized text goes to the API, image bytes never leave your machine.",
+  "intentEn": "Local vision for text-only models: built-in Windows OCR (Windows.Media.Ocr) — only recognized text goes to the API, image bytes never leave your machine.",
+  "intentZh": "给纯文本模型加本地看图：Windows 自带 OCR 引擎本地识别图片，只把文字发给模型，图片字节不离开本机。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 6,
+  "forks": 0,
+  "created_at": "2026-08-15T12:32:44.664Z",
+  "updated_at": "2026-08-15T12:32:44.664Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-15T12:32:44.664Z"
+ },
+ "maxwell-feng/dsh-tesseract-ocr": {
+  "repo": "maxwell-feng/dsh-tesseract-ocr",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "llm",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Local vision for text-only models: Tesseract OCR — only recognized text goes to the API, image bytes never leave your machine (Linux/macOS).",
+  "intentEn": "Local vision for text-only models: Tesseract OCR — only recognized text goes to the API, image bytes never leave your machine (Linux/macOS).",
+  "intentZh": "给纯文本模型加本地看图：Tesseract OCR 本地识别图片，只把文字发给模型，图片字节不离开本机（Linux/macOS）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-15T12:32:44.664Z",
+  "updated_at": "2026-08-15T12:32:44.664Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-15T12:32:44.664Z"
  }
 }
