@@ -88921,5 +88921,43 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-15T12:32:44.664Z"
+ },
+ "lengduan/dsh-815-skin": {
+  "repo": "lengduan/dsh-815-skin",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "skin",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Historical Web GUI skin: Chen Jian's 9 Sept 1945 Nanjing surrender painting as chat backdrop; Imperial Rescript in the sidebar. Load-on, unload-off; no session or model changes.",
+  "intentEn": "Historical Web GUI skin: Chen Jian's 9 Sept 1945 Nanjing surrender painting as chat backdrop; Imperial Rescript in the sidebar. Load-on, unload-off; no session or model changes.",
+  "intentZh": "Web GUI 史料皮肤：对话区陈坚油画《公元一九四五年九月九日九时》（南京受降），侧栏挂《终战诏书》。加载即生效、卸载即还原，不改会话、不调模型。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-15T14:57:48.812Z",
+  "updated_at": "2026-08-15T14:57:48.812Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-15T14:57:48.812Z"
  }
 }
