@@ -1222,7 +1222,7 @@
 | [kezboardpj/dsh-skill-loader](https://github.com/kezboardpj/dsh-skill-loader) | (无描述) | (no description) | 3 | JavaScript | yes |
 | [Vim0x3c/dsh-session-manager](https://github.com/Vim0x3c/dsh-session-manager) | (无描述) | (no description) | 3 | TypeScript | yes |
 | [CAPTAIN1275/dsh-ui-web](https://github.com/CAPTAIN1275/dsh-ui-web) | (无描述) | (no description) | 3 | TypeScript | yes |
-| [Francis-Xavier-code/dsh-balance-plugin](https://github.com/Francis-Xavier-code/dsh-balance-plugin) | deepSeek 余额监控与用量统计（DSH 动态 Cordis 插件）：余额监控 · 官方充值入口 · 用量统计 · 三方插件管理 | DeepSeek balance monitoring and usage statistics (a dynamic DSH Cordis plugin): balance mo | 3 | JavaScript | yes |
+| [Francis-Xavier-code/dsh-balance-plugin](https://github.com/Francis-Xavier-code/dsh-balance-plugin) | deepSeek 余额监控与用量统计（DSH 动态 Cordis 插件）：余额监控 · 官方充值入口 · 用量统计 · 三方插件管理 | DeepSeek balance monitoring & usage statistics (a dynamic DSH Cordis plugin): balance monitoring, official top-up entry, usage stats, third-party plugin management. | 15 | JavaScript | yes |
 | [whiteguo233/dsh-cc-connect](https://github.com/whiteguo233/dsh-cc-connect) | 通过 cc-connect 远程使用 DSH | Use DSH remotely via cc-connect | 2 | Go | yes |
 | [renat3u/dsh-paseo](https://github.com/renat3u/dsh-paseo) | DSH 的 paseo 插件扩展支持 | paseo plugin extension support for DSH | 2 | JavaScript | yes |
 | [vibeinging/dsh-trace](https://github.com/vibeinging/dsh-trace) | DSH 遥测后端：导出轮次/步骤/工具 | Telemetry backend exporting turns/steps/tools | 2 | TypeScript | yes |
