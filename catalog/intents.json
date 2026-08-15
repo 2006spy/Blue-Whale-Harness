@@ -79498,7 +79498,7 @@
   "lists": [
    "watch"
   ],
-  "dshCategory": "tools",
+  "dshCategory": "llm",
   "isDshPlugin": true,
   "dshSignals": [
    "cordis.patch.yml",
@@ -79509,9 +79509,9 @@
   ],
   "manifestType": "cordis.patch.yml",
   "language": "JavaScript",
-  "intent": "(no description)",
-  "intentEn": "(no description)",
-  "intentZh": "(无描述)",
+  "intent": "Adds an \"adaptive\" option to the model selector (/model): each LLM request is first graded for difficulty by a flash classifier (low / medium / high / critical), then automatically forwarded along a config-driven routing chain to the corresponding backend provider.",
+  "intentEn": "Adds an \"adaptive\" option to the model selector (/model): each LLM request is first graded for difficulty by a flash classifier (low / medium / high / critical), then automatically forwarded along a config-driven routing chain to the corresponding backend provider.",
+  "intentZh": "在模型选择器（/model）中提供 adaptive 选项：每个 LLM 请求先由 flash 分类器判难度（low / medium / high / critical），再按配置驱动的路由链自动转发到对应后端 provider。",
   "zhSource": "native",
   "enSource": "native",
   "needsReview": false,

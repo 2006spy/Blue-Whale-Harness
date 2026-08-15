@@ -14,12 +14,12 @@
 
 ## 分类索引
 
-- **llm** — 158 个仓库，★90287
+- **llm** — 159 个仓库，★90289
 - **skills** — 51 个仓库，★22933
 - **utility** — 345 个仓库，★17630
 - **orchestration** — 197 个仓库，★15424
 - **session** — 229 个仓库，★14261
-- **tools** — 570 个仓库，★14098
+- **tools** — 569 个仓库，★14096
 - **ui** — 176 个仓库，★4179
 - **uncategorized** — 1 个仓库，★668
 - **sandbox** — 9 个仓库，★175
@@ -31,7 +31,7 @@
 
 > 按分类分组，组内按 STAR 倒序。点击仓库名跳转原项目。
 
-### llm（158）
+### llm（159）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -121,6 +121,7 @@
 | [WardLu/shadow-vision](https://github.com/WardLu/shadow-vision) | shadow-vision — DSH 插件（模型） | Open-source MCP vision server that gives text-only LLMs and AI agents image understanding, | 2 | Python | no |
 | [Elohia/pi-mm-vision](https://github.com/Elohia/pi-mm-vision) | Synesthesia Encoder (通感编码器) — give any text-only LLM (DeepSeek, etc.) the ability to see i | Synesthesia Encoder — gives any text-only LLM (DeepSeek, etc.) the ability to see images v | 2 | TypeScript | yes |
 | [niyongsheng/free-vision-skill](https://github.com/niyongsheng/free-vision-skill) | Local‑only vision skill for macOS 本地化识图技能 | Local-only vision skill for macOS that recognizes images on-device. | 2 | Swift | yes |
+| [dylan121322/llm-adaptive](https://github.com/dylan121322/llm-adaptive) | 在模型选择器（/model）中提供 adaptive 选项：每个 LLM 请求先由 flash 分类器判难度（low / medium / high / critical），再按配 | Adds an "adaptive" option to the model selector (/model): each LLM request is first graded | 2 | JavaScript | yes |
 | [Moeblack/dsh-payload-capture](https://github.com/Moeblack/dsh-payload-capture) | DSH 插件：捕捉每次上行模型 API payload，JSON 落盘 | dsh-payload-capture — DSH plugin (llm) | 1 | JavaScript | yes |
 | [hawkongz/doubao-vision-dsh](https://github.com/hawkongz/doubao-vision-dsh) | 让纯文本模型通过桌面豆包看见聊天图片的 DeepSeek Harness 宿主插件(CDP 桥接,全预设生效,识别可取消) | doubao-vision-dsh — DSH plugin (llm) | 1 | JavaScript | yes |
 | [TiankunDai/dsh-vision-LMstudio](https://github.com/TiankunDai/dsh-vision-LMstudio) | 让你能通过deepseek harness调用LM studio加载的本地视觉模型 | dsh-vision-LMstudio — DSH plugin (llm) | 1 | TypeScript | yes |
@@ -1036,7 +1037,7 @@
 | [DreamZhongJu/dsh-codex-sync](https://github.com/DreamZhongJu/dsh-codex-sync) | 将 DeepSeek-on-Codex 的聊天记录导入 DeepSeek Harness（dsh） | Import DeepSeek-on-Codex chat history into DeepSeek Harness (dsh) | 0 | TypeScript | no |
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 
-### tools（570）
+### tools（569）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1342,7 +1343,6 @@
 | [inmny/dsh-git-bash](https://github.com/inmny/dsh-git-bash) | (无描述) | (no description) | 2 | C++ | yes |
 | [MoonShadow1976/chiral-pulse](https://github.com/MoonShadow1976/chiral-pulse) | (无描述) | (no description) | 2 | TypeScript | yes |
 | [CZX2244/dsh-bilibili](https://github.com/CZX2244/dsh-bilibili) | (无描述) | (no description) | 2 | JavaScript | yes |
-| [dylan121322/llm-adaptive](https://github.com/dylan121322/llm-adaptive) | (无描述) | (no description) | 2 | JavaScript | yes |
 | [QWQ-nn/dsh-client-ui-trajectory-categories](https://github.com/QWQ-nn/dsh-client-ui-trajectory-categories) | (无描述) | (no description) | 2 | JavaScript | yes |
 | [AtlasCloudAI/cli](https://github.com/AtlasCloudAI/cli) | AtlasCloud 命令行工具安装包与发布产物 | AtlasCloud CLI installers and release artifacts | 2 | JavaScript | no |
 | [SPYQWER1/dsh-imagecraft](https://github.com/SPYQWER1/dsh-imagecraft) | (无描述) | (no description) | 2 | JavaScript | yes |
