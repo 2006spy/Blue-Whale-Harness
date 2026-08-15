@@ -1,0 +1,962 @@
+[
+ {
+  "repo": "kestiny18/dsh-plugins",
+  "origText": "Community plugins for DeepSeek Harness",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Chhlafiu4312/promptwall",
+  "origText": "Local prompt-injection and secret-exfiltration firewall for DeepSeek Harness.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Lanxing6480/dsh-skill-manager",
+  "origText": "Deepseek Harness 的Skill管理插件",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Terry12138qy/dsh-vision",
+  "origText": "DeepSeek Harness 识图插件：为不具备原生识图能力的模型提供识图能力（阿里云百炼 qwen3.5-omni-plus，失败自动切换智谱 glm-4.6v-flash）。由 claude-vision-skill 移植适配。 | Vision tool for De…",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "MJ-Chang/dsh-vscode",
+  "origText": "DeepSeek Harness for VS Code: right-side chat agent that reads, edits, and runs your project — like Claude Code / Codex / Copilot.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "sandbaseai/sandbase-skills",
+  "origText": "Native DeepSeek Harness skills for research and growth workflows, with an npm CLI that installs complete bundles into .dsh/skills. Apache-2…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "DevourerM/dsh-naiwa-theme",
+  "origText": "为deepseek harness构建的奶蛙主题，可是我觉得很神圣呀。（素材来自互联网）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "acnlabs/dsh-plugin-acn",
+  "origText": "DeepSeek Harness plugin: join ACN so this agent can discover, message, and collaborate with other agents. Defaults to the China region.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "xiaoxianyu-office/dsh-skills-manager",
+  "origText": "DSH Skills 管理器：设置页系统/用户技能分类，用户技能开关/编辑/删除/新建。Skills manager for DeepSeek Harness: system/user skill management (toggle/edit/delete/create) i…",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Make0209/dsh-usage-stats",
+  "origText": "DeepSeek Harness 插件：GitHub 风格用量热力图 + Token / 缓存命中 / 账户余额看板 + 工作区别名管理。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "MoonGlassKitty/dsh-tailscale-sync",
+  "origText": "Zero-config Tailscale sync for DeepSeek Harness (dsh-plugin). 零配置：在手机上继续电脑端 DeepSeek Harness 的工作。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "zjzqs/dsh-client-ui-voice-input",
+  "origText": "DeepSeek Harness (dsh) Web UI plugin: voice input + prompt optimization for the composer. 语音输入 + 提示词优化（Web Speech API，宿主端 LLM 优化，支持撤回）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "le-soleil-se-couche/dsh-skin-claude-code",
+  "origText": "DeepSeek Harness (dsh) Web GUI skin: Claude Code style fonts + Codex warm palette (terracotta #DA7756, cream #F5F3EE, ink #1D1B16, Source H…",
+  "origLang": "en",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "zouyuanqing/dsh-vision-primitives",
+  "origText": "Native interactive visual-reasoning plugin for DeepSeek Harness: precise pixel grounding (SOM grid / zoom / annotate / measure / diff / col…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "HOFO-GYG/dsh-quote-reply",
+  "origText": "DSH web plugin: quote any selected fragment of a conversation into the composer as a Markdown blockquote - smart floating button beside the…",
+  "origLang": "en",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "xiaoxianyu-office/dsh-image-tools",
+  "origText": "DSH bundle plugin: chat-image bridge + read_image deny + conversational image_recognize for text-only main models | 纯文本主模型识图桥接与识图工具",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "radres/dsh-plugin-call-me",
+  "origText": "Your DeepSeek Harness agent rings your actual phone: it asks out loud, you answer out loud, and what you said steers the run.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "culture-flask/dsh-aemeath-pet",
+  "origText": "爱弥斯 · DeepSeek Harness 桌宠 — DeepSeek Harness Web GUI 的像素风宠物插件。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "tzy168/dsh-web-theme-packs",
+  "origText": "This is a dsh-pulgin for change theme by yourself.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Chhlafiu4312/citeguard",
+  "origText": "Citation extraction and evidence verification for DeepSeek Harness.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "huguangyu666/dsh-plugin-notify",
+  "origText": "DeepSeek Harness 插件：通知出口——agent 通过桌面通知 / 中文语音播报 / 提示音主动联系用户（长任务完成、出错、呼叫用户回来）。Windows 本机零依赖。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Highjobop/dsh-gadgets",
+  "origText": "Lightweight DeepSeek Harness tweaks: dsh-skin (appearance) + dsh-tidy (conversation folding & nav rail)",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "jiesou/dsh-commandcode-go-provider",
+  "origText": "Command Code Go API provider for dsh. Command Code 订阅 + DeekSeek Harness 兼容层",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "jiezeng2004-design/dsh-requirements-alignment",
+  "origText": "Lightweight requirement alignment for DeepSeek Harness — align important decisions before execution without a full spec workflow.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "SZMY-haruhi/dsh-web-search-Tavily",
+  "origText": "Adds Tavily Search API as a web search provider for DSH.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "TGYD-helige/dsh-pi",
+  "origText": "Run trusted Pi extensions inside DeepSeek Harness through a compatibility host.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "xiaoxiaosrm/dsh-mattpocock-skills",
+  "origText": "Unofficial DSH port of mattpocock/skills — Engineering (18) + Productivity (7) skills as a DeepSeek Harness bundle plugin. MIT, © Matt Poco…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "KHG420/git-worktree",
+  "origText": "DeepSeek Harness plugin: bind every conversation to its own isolated git worktree + branch in one click, so parallel agents work on one rep…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "monk233/dsh-plugin-manager",
+  "origText": "DSH 插件管理, 一键启用/禁用插件",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "LemCAE/dsh-balance",
+  "origText": "一个适用于deepseek-harness的插件，功能是显示当前账户余额以及当前会话预估的费用消耗 | A plugin for deepseek-harness that displays the current account balance and the estimat…",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Da-Mie/dsh-beacons",
+  "origText": "Right-edge prompt navigator (Codex/OpenChamber-style scrub rail with scroll-spy) plus Windows toast notifications — a DeepSeek Harness plug…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "ZRui-C/dsh-computer-use",
+  "origText": "Text-first browser & background macOS control for DeepSeek Harness (DSH): target the right process and window without taking the user's poi…",
+  "origLang": "en",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "mang0cola/adb_dsh_plugin",
+  "origText": "DeepSeek Harness plugin for controlling Android devices through ADB",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Yihong89/dsh-teacher",
+  "origText": "DSH teacher plugin: Socratic tutor that leads you to answers from a markdown question set, tracks knowledge gaps in-session, and retests th…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "NoNameLeGo/dsh-catppuccin",
+  "origText": "DeepSeek Harness Web GUI 的 Catppuccin 主题插件：Latte / Frappé / Macchiato / Mocha 四种风味一键切换",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "CaoNing3212/dsh-plugin-image-wallpaper",
+  "origText": "自定义Deepseek Harness webUI主题",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "penguin-oo/dsh-bookmarks",
+  "origText": "Bookmark assistant replies in DeepSeek Harness: per-message bookmarks with notes/tags, a cross-session center, and one-click Markdown expor…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "fyy99/dsh-livis-connector",
+  "origText": "Connect Livis to DeepSeek Harness with in-app authorization and relay management.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "xxxxxxxyu/dsh-notify-sound",
+  "origText": "DSH (DeepSeek Harness) web plugin: plays a sound when the agent finishes replying (turn/end). Sound, volume and on/off configurable in Sett…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "le-soleil-se-couche/dsh-token-cost",
+  "origText": "在对话页面直接查看消耗费用（嵌入官方底部状态条，点击看明细）；在设置中查看 Harness 消耗的总费用、缓存命中和输入输出",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "sharkymew/dsh-utility-tools",
+  "origText": "DSH（DeepSeek Harness）对话工具插件：拖拽任意文件进入对话 + 选中文本引用。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "zebbkira/dsh-skills-mcp-manager",
+  "origText": "面向 DeepSeek Harness Web GUI 的正式插件包：在设置页的「Web UI 插件」分组中新增一张「技能与 MCP」卡片，用于在浏览器里管理技能（skills）与 MCP 服务器。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "kbpoyo/dsh-image-bridge",
+  "origText": "DSH 插件：让纯文本模型也能看图。Web 端直接粘贴图片即可发送，无需指定图片路径；模型自主调用视觉技能查看，多模态模型原生直通，零skill绑定。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Blaczz/dsh-sci",
+  "origText": "Zero-dependency scientific computing tools for DeepSeek Harness: physical-unit conversion, CODATA physical constants, and Runge-Kutta ODE/d…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "feiyang-dev/dsh-usage-plugin",
+  "origText": "DeepSeek Harness 用量与消耗插件（dsh-usage）—— 每次调用的 token 用量/缓存命中统计、峰谷计费、余额查询、CSV/JSON/PNG 导出，可经桌面端一键安装或命令行 dsh plugin add 安装。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Sqhao-O/dsh-docling",
+  "origText": "Native Docling document intelligence for DeepSeek Harness.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "yzd6552-commits/dsh-browseruse",
+  "origText": "browser-use style browser automation plugin for DeepSeek Harness: drives a dedicated Chrome instance (persistent profile) via playwright-co…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "Player-MINEPIG/dsh-tavern",
+  "origText": "A plugin which makes dsh compatible with SillyTavern artifacts.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "superagents-lab/dsh-s1",
+  "origText": "Native s1 tools for the DeepSeek Harness (DSH): s1_search, s1_news, s1_crawl, s1_sitemap, s1_trending + bundled s1 skill",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "ZSeven-W/dsh-noema",
+  "origText": "Noema long-term memory plugin for DSH: durable, inspectable agent memory with recall tools and a settings page.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Wechsels/dsh-zotero-wiki",
+  "origText": "DeepSeekHarness × Zotero 插件：自动同步文献库，MinerU 解析 PDF，DeepSeek 全文阅读生成结构化笔记，编译成可检索的 Obsidian LLM Wiki。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "cindyguyuehu123/dsh-webchatlike",
+  "origText": "Web-chat style message actions for DeepSeek Harness: edit your prompt, regenerate answers, and flip versions with a deepseek.com-style <i/N…",
+  "origLang": "en",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Realyujie/dsh-us-stocks",
+  "origText": "US stock market data tools for DeepSeek Harness, powered by yahoo-finance2",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "skylar-fei/dsh-wechat-maid",
+  "origText": "一个适用于DSH的插件，提供微信远程控制、主动对话、未来任务、桌宠等功能，可通过桌宠面板实时检查未来任务的状态，并提供“自动编码”模式，使模型在对话完后发微信提醒你，以便你认真的刷手机。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Qinling-Melon-Farmers/dsh-memoir",
+  "origText": "DSH 项目持久化记忆插件（TypeScript）：会话归纳 + 经验教训沉淀，写入 PROJECT_MEMORY.md 与全局索引；每轮工作结束自动提醒蒸馏、自动注入未来 AGENTS；附 Web GUI 记忆面板（项目/全局 tab、检索、手动记录/删除）。dsh-plug…",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "mervyn-teo/dsh-plugin-qr-connect",
+  "origText": "DeepSeek Harness dynamic plugin: QR-code sidebar button for connecting mobile devices to the web UI",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "GLFzr/dsh-opencode-go-quota",
+  "origText": "DSH 插件：OpenCode Go 额度圆环 —— 输入框模型选择器左侧的进度圆环，点击切换 5小时/每周/每月用量（OpenCode Go quota ring for DeepSeek Harness Web）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Argonaut790/dsh-zh-hant-hk",
+  "origText": "DeepSeek Harness plugin: Hong Kong Traditional Chinese wording (對話, 設定, 儲存)",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "starslittle/dsh-blue-whale",
+  "origText": "Official DeepSeek Chat blue-whale default skin for DeepSeek Harness",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "kyorakuyk/dsh-hotreload-plugin-manager",
+  "origText": "DeepSeek Harness plugin: hot install / uninstall / update / enable-disable of profile plugin bundles from the running dsh web — no restart,…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "609476965/dsh-LorebookMD",
+  "origText": "DSH lorebook-driven fiction writer plugin: import Tavern/SillyTavern character cards & world books, save local Markdown settings, generate…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "akira399/dsh-stall-guard",
+  "origText": "DeepSeek Harness watchdog plugin: detects truly stalled agent turns (never killing in-progress tasks — in-flight operations are exempt), nu…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "jjxjjjjiik-bot/dsh-chat-timeline",
+  "origText": "1:1 port of DeepSeek's official web right-side chat navigation rail (ScrollNav) as a DeepSeek Harness (DSH) plugin",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "astra3294/dsh-doctor",
+  "origText": "Deterministic diagnostics and recovery for DeepSeek Harness",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "chu557/douyin-plugin-dsh-plugin",
+  "origText": "在使用dsh等待的过程中刷抖音",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Cavan-Ou/hermes-dsh-collab",
+  "origText": "Battle-tested multi-agent collaboration playbook for DeepSeek Harness: model-tier routing, spec discipline, git single-writer rule — as an…",
+  "origLang": "en",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "sparkmio/dsh-sfversion",
+  "origText": "SF视觉桥——给纯文本模型的 DeepSeek Harness 装上眼睛。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "VanillaCreamer/dsh-plugin-visual-composer",
+  "origText": "Visual Cordis plugin-tree composer for the DeepSeek Harness Web UI.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "echo-xianyu/dsh-go-rotator",
+  "origText": "A plugin for DSH to swich opencode Go subscription",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "limbo947/DSH-recall-plugin",
+  "origText": "DSH 消息撤回插件：回到发送该消息时的状态",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Zachary7456/dsh-voice-mic",
+  "origText": "DeepSeek Harness (dsh) 语音输入插件：麦克风按钮/快捷键录音，实时转写回填输入框。三种识别引擎：浏览器 Web Speech、本地 SenseVoice/Paraformer 离线后端（一键部署）、OpenAI 兼容云端 ASR API。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "PAKIKNOWLEDGE/dsh-client-ui-skin-claude",
+  "origText": "Claude-style skin for DeepSeek Harness (dsh) Web GUI — warm-black canvas, Anthropic clay accent, serif UI",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "skymecode/deepseek-harness-for-vscode",
+  "origText": "deepseek-harness for vscode .This is a community project, and we welcome your valuable feedback!",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "dfycaly98931680/dsh-trajectory-governance",
+  "origText": "Agent trajectory governance & anomaly diagnosis plugin for DeepSeek Harness (dsh): multi-branch trajectory trees, loop-deadlock / invalid-r…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "Karbo123/DSH-EvoResearch",
+  "origText": "自进化科研工作流",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "imlishiyuan/deepseek-harness-zh-cn",
+  "origText": "A Chinese-first plugin that makes [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) reason (`reasoning`) and answer in Si…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "yu2025-luo/dsh-file-panel",
+  "origText": "Right-side file panel for DeepSeek Harness — auto-popup when the agent creates or downloads files, with image/text preview, reveal-in-folde…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "Lanxing6480/dsh-galgame",
+  "origText": "我要成为Galgame高手！！将你的Vibe coding界面修改成为Galgame的样子，在不影响工作的情况下和赏心悦目的DeepSeek娘进行友好互动",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Saktawdi/ha-orchestrator",
+  "origText": "DeepSeek Harness（dsh）动态 Cordis 插件：模型高可用回退 + 子智能体编排（HA failover + orchestrate subagents）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "CaoNing3212/dsh-plugin-deepseek-balance",
+  "origText": "Deepseek余额显示",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "deepforce/dsh-balance",
+  "origText": "DSH plugin: /balance command + composer-dock balance readout with top-up link & session-cost estimate",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "kxSenlin/dsh-whale-font",
+  "origText": "把 DeepSeek Harness 对话里的主语人称「我/你/I/me」渲染成 DeepSeek 蓝鲸图标（DSH 插件）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "invalidnaaaame/dsh-scroll-timeline",
+  "origText": "DSH web plugin: ChatGPT-style scroll timeline on the chat sidebar — magnetic mountain hover, click to jump to user messages. Derived from v…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "Edge-Echo/dsh-mcp-bridge",
+  "origText": "Curated, verified MCP server bundle for DeepSeek Harness (dsh): one install brings demo, memory, filesystem, GitHub, Playwright and remote…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "uluckystar/dsh-client-ui-side-tasks",
+  "origText": "DSH 侧边任务插件:主对话右侧临时任务面板(fork 子会话,删除零残留)。by MyDSH 社区 (mydsh.dev)",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "uluckystar/dsh-schedule-tasks",
+  "origText": "DSH 定时任务插件:标准 cron 5 段式调度 + shell/通知触发动作 + Web 侧边栏管理面板。by MyDSH 社区 (mydsh.dev)",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "starslittle/dsh-queue-plus",
+  "origText": "Reorder, clear, and undo controls for the DeepSeek Harness prompt queue",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "wjxn13/dsh-headroom",
+  "origText": "Headroom context-compression proxy integration for DeepSeek Harness: detect/install/start Headroom, auto-configure the DeepSeek compressed…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "yabo083/dsh-document-review",
+  "origText": "DeepSeek Harness plugin: review Markdown documents in a local browser with annotations, replacements, and deletion suggestions. Supports si…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "labmimors/dsh-mcp-lens",
+  "origText": "Shrink MCP context in DeepSeek Harness: 1,000 remote tools behind 2 exact-schema interfaces, with a measured V4 Flash cost pilot.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "yha9806/dsh-subagent-admission",
+  "origText": "Shared lifecycle admission protocol and reference policy kernel for DeepSeek Harness subagents.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "hchao3335-maker/dsh-lan-gate",
+  "origText": "一个DSH内网访问插件 局域网设备安全访问本机 DSH 的即插即用网关：本机审批、设备令牌、限流、手机适配，单文件零依赖。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "DViridescent/dafy-whale-theme",
+  "origText": "DeepSeek Harness 蓝色大肥鱼主题插件：海洋配色、鱼群、气泡、吉祥物与品牌替换",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "SeverusZh/dsh-yolo-mode",
+  "origText": "dsh-yolo-mode - an LLM-powered auto-approval plugin for DeepSeek Harness sandbox escalations (built-in presets + custom permission levels,…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "SeverusZh/dsh-plugin-subagent-director",
+  "origText": "Subagent Director: per-subagent LLM provider/model selection with role templates for DeepSeek Harness (dsh plugin)",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "my-dsh-plugin/thinking-level-override",
+  "origText": "自主覆盖与调整第三方模型的思考等级，修复工具内置预设缺失或不匹配的问题。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "GLFzr/dsh-drop-file-to-path",
+  "origText": "DSH 拖拽文件转路径插件：Codex 式拖拽，路径自动插入输入框（Drop File to Path for DeepSeek Harness）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Hoshino-Yumetsuki/dsh-onebot",
+  "origText": "OneBot Adapter For DSH",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "iamzcr/dsh-obsidian-assistant",
+  "origText": "DeepSeek Harness 插件（Cordis toolset）：操作本地 Obsidian 知识库（vault），提供搜索、读写笔记、双向链接 / 关系图谱、批量整理，并通过 Obsidian 的 \"Local REST API\" 社区插件调用高级能力（高速全文搜索、触…",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "x2802490130-prog/dsh-balance-float",
+  "origText": "DSH 悬浮余额/一键退出插件",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "2031814001yuyue-tech/dsh-side-chat",
+  "origText": "dsh-plugin",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "2768651338/dsh-plugin-manager",
+  "origText": "DeepSeek Harness 的图形化插件管理插件：在 设置 → 插件 里新增「插件管家」标签页，用中文名和说明展示每个插件是做什么的，并提供一键启停开关与内置备注编辑——启停写入全局层补丁并实时热生效，备注保存到本地覆盖文件长期生效。",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "wqty123/dsh-browser",
+  "origText": "Shared real browser plugin for DeepSeek Harness",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Rainronin/dsh-balance-monitor",
+  "origText": "一个好看、简单、实用的余额监视器｜DeepSeek Harness 插件：官方余额快照 + ds_balance 工具 + Matrix 侧边栏徽章",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Argonaut790/dsh-deepseek-vision",
+  "origText": "Image understanding, OCR, and persistent visual evidence for text-only DeepSeek Harness models",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "liustack/pptfast",
+  "origText": "Stable, editable PPTX generation for AI agents — semantic IR in, native DrawingML out. DSH plugin + Claude Code plugin + CLI. | 给 AI agent…",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "aaravarr/dsh-subagent-max",
+  "origText": "DeepSeek Harness (DSH) plugin — a subagent_with_model tool plus a live multi-panel subagent viewer.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Vim0x3c/dsh-skin-appearance",
+  "origText": "DeepSeek Harness 外观定制插件：八套内置主题 + 自定义壁纸（透明度/模糊），Host 设置持久化 | Appearance plugin for dsh web",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "festoney8/deepseek-harness-GUI",
+  "origText": "DeepSeek Harness 超级轻量启动器，基于 Tauri 封装桌面版 APP，支持升级 DSH 内核、提供免安装便携版",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "GongYuanCaiJi/dsh-simplify",
+  "origText": "DeepSeek Harness 插件：审查最近改动的代码，就清晰度、一致性与可维护性提出改进（移植自 pi-simplify）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Tianyu209/dsh-browser-companion",
+  "origText": "A personal DSH browser plugin: persistent profile, visible window, human-in-the-loop login, and safe agent browser tools.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "jiezeng2004-design/dsh-chatgpt-bridge",
+  "origText": "MCP bridge that lets ChatGPT create, view, continue, and control DeepSeek Harness (DSH) agent sessions.",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "akira399/dsh-plugin-publisher",
+  "origText": "dsh-plugin-publisher — DSH 插件（其他）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "akira399/dsh-godot-skill",
+  "origText": "dsh-godot-skill — DSH 插件（其他）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "KnCRJVirX/dsh-desktop",
+  "origText": "dsh-desktop — DSH 插件（其他）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "Scorp1o117/dsh-plugin-marketplace",
+  "origText": "dsh-plugin-marketplace — DSH 插件（其他）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "TecFancy/dsh-deeptutor",
+  "origText": "dsh-deeptutor — DSH 插件（其他）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "LvienOeria/dsh-launcher",
+  "origText": "一个轻量的 dsh（DeepSeek Harness）插件：安装一个终端命令，输入 dsh-go 即可启动 harness 并自动打开浏览器。零依赖，约 9 KB。（桌面双击版在独立的 dsh-desktop-launcher 包）",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ },
+ {
+  "repo": "15828148/dsh-portable-launcher",
+  "origText": "One-click portable launcher for DeepSeek Harness (dsh) Web UI on Windows. Auto-installs Node.js and dsh with China mirror fallback, 3-stage…",
+  "origLang": "en",
+  "needZh": true,
+  "needEn": false,
+  "stars": 2
+ },
+ {
+  "repo": "Elohia/pi-mm-vision",
+  "origText": "Synesthesia Encoder (通感编码器) — give any text-only LLM (DeepSeek, etc.) the ability to see images via structured spatial text encoding. A Pi…",
+  "origLang": "zh",
+  "needZh": false,
+  "needEn": true,
+  "stars": 2
+ }
+]

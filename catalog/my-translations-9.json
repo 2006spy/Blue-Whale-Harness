@@ -1,0 +1,4 @@
+[
+ {"repo":"TGYD-helige/dsh-pi","target":"zh","text":"通过兼容宿主在 DeepSeek Harness 内运行受信任的 Pi 扩展。"},
+ {"repo":"TableRogue/dsh-message-navigator","target":"en","text":"Message Navigator: a vertical message index on the right side of the DeepSeek Harness web chat UI (dynamic Cordis plugin)."}
+]

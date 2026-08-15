@@ -1,0 +1,118 @@
+[
+ {
+  "repo": "dhicoc/dsh-reverse-skill",
+  "scanDate": "2026-08-15",
+  "files": [
+   "skills/attack-chain/references/evasion-cheatsheet.md",
+   "skills/field-journal/precedent-pentest.md",
+   "skills/pentest-tools/references/web-attack-cheatsheet.md",
+   "skills/pentest-tools/src-hunter/references/payloader/waf-bypass.md",
+   "skills/pentest-tools/src-hunter/references/payloader/by-category/intranet/免杀与规避.md",
+   "skills/pentest-tools/src-hunter/references/payloader/by-category/web/lfi-rfi文件包含.md",
+   "skills/pentest-tools/src-hunter/references/payloader/by-category/web/xss跨站脚本.md",
+   "skills/pentest-tools/src-hunter/references/payloader/by-category/web/框架漏洞.md",
+   "skills/pentest-tools/src-hunter/references/payloader/raw/tools.json",
+   "skills/pentest-tools/src-hunter/references/payloader/tools/windows渗透.md",
+   "skills/pentest-tools/src-hunter/references/payloader/tools/系统命令.md",
+   "skills/pentest-tools/src-hunter/references/playbooks/intranet-postexp.md",
+   "skills/pentest-tools/src-hunter/references/playbooks/rce.md",
+   "skills/pentest-tools/src-hunter/references/playbooks/path-traversal.md",
+   "skills/pentest-tools/src-hunter/references/playbooks/xss.md",
+   "skills/pentest-tools/src-hunter/references/payloader/by-category/web/rce远程代码执行.md",
+   "skills/pentest-tools/src-hunter/references/payloader/by-category/web/sql-nosql注入.md",
+   "skills/pentest-tools/src-hunter/references/payloader/by-category/web/ssti模板注入.md",
+   "skills/pentest-tools/src-hunter/references/payloader/by-category/web/认证漏洞.md",
+   "skills/pentest-tools/src-hunter/references/payloader/raw/web.json",
+   "skills/pentest-tools/src-hunter/references/playbooks/file-upload.md",
+   "skills/pentest-tools/src-hunter/references/playbooks/oauth-saml-jwt.md",
+   "skills/pentest-tools/src-hunter/references/playbooks/sqli.md"
+  ],
+  "tags": [
+   "木马程序(Generic/Trojan.Generic.HgAAUMQA)",
+   "木马程序(Generic/Backdoor.WebShell.HgAAUMQA)",
+   "木马程序(Generic/Backdoor.WebShell.HgAAUMQA)",
+   "ex_webshell.php.backdoor.mq",
+   "木马程序(Generic/Trojan.Generic.HgAAULcA)",
+   "木马程序(Generic/Backdoor.WebShell.HgAAULYA)",
+   "木马程序(Generic/Trojan.Generic.HgAAULcA)",
+   "ex_webshell.asp.backdoor.dw",
+   "木马程序(Generic/Backdoor.WebShell.HskAULYA)",
+   "木马程序(Generic/Trojan.Generic.HgAAULYA)",
+   "木马程序(Generic/HackTool.PsAttack.HgAAULcA)",
+   "木马程序(Generic/Trojan.Generic.HgAAUMQA)",
+   "ex_webshell.jsp.backdoor.m",
+   "木马程序(Generic/Backdoor.WebShell.HgAAUMMA)",
+   "木马程序(Generic/Trojan.Generic.HoAAUMQA)",
+   "ex_webshell.php.small.da",
+   "ex_webshell.asp.backdoor.g",
+   "ex_webshell.php.backdoor.op",
+   "virus.exp.unsafe.b",
+   "asp.webshell.eval.15",
+   "ex_webshell.asp.backdoor.g",
+   "virus.exp.unsafe.b",
+   "ex_webshell.asp.backdoor.g"
+  ],
+  "alertCount": 23,
+  "maxSeverity": "critical"
+ },
+ {
+  "repo": "foryourhealth111-pixel/Vibe-Skills",
+  "scanDate": "2026-08-15",
+  "files": [
+   "bundled/skills/docx/SKILL.md"
+  ],
+  "tags": [
+   "木马程序(Trojan.Generic)"
+  ],
+  "alertCount": 1,
+  "maxSeverity": "high"
+ },
+ {
+  "repo": "coding-chimera/chimera",
+  "scanDate": "2026-08-15",
+  "files": [
+   "packages/chimera/src/cli/cmd/tui/util/sound.ts"
+  ],
+  "tags": [
+   "ex_virus.macro.agent.k"
+  ],
+  "alertCount": 1,
+  "maxSeverity": "medium"
+ },
+ {
+  "repo": "paean-ai/deeptide",
+  "scanDate": "2026-08-15",
+  "files": [
+   "samples/pixel-peg-pop/js/data.js"
+  ],
+  "tags": [
+   "virus.js.qexvmc.1065"
+  ],
+  "alertCount": 1,
+  "maxSeverity": "medium"
+ },
+ {
+  "repo": "wink-run/dsh-plugin-store",
+  "scanDate": "2026-08-15",
+  "files": [
+   "index.html"
+  ],
+  "tags": [
+   "virus.html.cloud.1"
+  ],
+  "alertCount": 1,
+  "maxSeverity": "medium"
+ },
+ {
+  "repo": "wink-run/tokenbank",
+  "scanDate": "2026-08-15",
+  "files": [
+   "server/static/landing.html"
+  ],
+  "tags": [
+   "virus.html.cloud.1"
+  ],
+  "alertCount": 1,
+  "maxSeverity": "medium"
+ }
+]

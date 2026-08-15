@@ -1,0 +1,77 @@
+{
+ "try-works/role-model": {
+  "code": 128,
+  "killed": false,
+  "at": "2026-08-15T00:57:14.447Z"
+ },
+ "Roy-oss1/dsh-lark": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:02:01.296Z"
+ },
+ "bitterSmilezzz/dsh-skill-manager": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:03:08.595Z"
+ },
+ "echo-escape/dsh-workbench": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:03:43.419Z"
+ },
+ "bitterSmilezzz/dsh-model-selector": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:03:57.983Z"
+ },
+ "Very12345/sai": {
+  "code": 128,
+  "killed": false,
+  "at": "2026-08-15T01:04:23.009Z"
+ },
+ "ohtokaah-sys/dsh-plugins": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:07:08.934Z"
+ },
+ "Alexis-fish/dsh-worktrees": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:08:53.843Z"
+ },
+ "yeshimei/dsh-sound": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:10:19.569Z"
+ },
+ "kanallas/api-cost-meter": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:11:01.462Z"
+ },
+ "DreamZhongJu/dsh-codex-sync": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:11:43.158Z"
+ },
+ "D-Robotics/dsh-plugin-rdk": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:13:51.081Z"
+ },
+ "liuchen6667/deepseek-auto-evolving-harness": {
+  "code": 128,
+  "killed": false,
+  "at": "2026-08-15T01:16:44.658Z"
+ },
+ "bitterSmilezzz/dsh-mac-desktop": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:21:21.893Z"
+ },
+ "YisfL/dsh-desktop": {
+  "code": null,
+  "killed": true,
+  "at": "2026-08-15T01:23:13.611Z"
+ }
+}
