@@ -805,6 +805,8 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [houyongsheng/deepseek-harness-molt](https://github.com/houyongsheng/deepseek-harness-molt) | 会自己长出工具的编码智能体。每次任务后反思、写一个可复用工具、测试它，并存入技能库… | The coding agent that grows its own tools. It reflects after each task, writes a reusable  | 0 | Python | yes |
 
+| [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live streaming, Markdown rendering, and a neutral judge. | 0 | TypeScript | yes |
+
 ### session（229）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |

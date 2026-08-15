@@ -29556,5 +29556,21 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "lcc815/dsh-debate-plugin",
+  "name": "dsh-debate-plugin",
+  "category": "orchestration",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "yes",
+  "desc_en": "Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live streaming, Markdown rendering, and a neutral judge.",
+  "desc_zh": "DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。",
+  "sourceNote": "新增",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]
