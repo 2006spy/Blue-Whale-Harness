@@ -17768,6 +17768,22 @@
   ]
  },
  {
+  "repo": "lengduan/dsh-815-skin",
+  "name": "dsh-815-skin",
+  "category": "skin",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Historical Web GUI skin: Chen Jian's 9 Sept 1945 Nanjing surrender painting as chat backdrop; Imperial Rescript in the sidebar. Load-on, unload-off; no session or model changes.",
+  "desc_zh": "Web GUI 史料皮肤：对话区陈坚油画《公元一九四五年九月九日九时》（南京受降），侧栏挂《终战诏书》。加载即生效、卸载即还原，不改会话、不调模型。",
+  "sourceNote": "新增",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
   "repo": "ChenRuoT/dsh-sidebar-qa",
   "name": "dsh-sidebar-qa",
   "category": "ui",
