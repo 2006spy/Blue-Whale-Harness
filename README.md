@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-16 ｜ 共 **1795** 个仓库 ｜ 真·DSH 插件 **1664** 个
+> 自动生成于 2026-08-16 ｜ 共 **1796** 个仓库 ｜ 真·DSH 插件 **1665** 个
 
 ## 统计
 
-- 仓库总数：**1795**
-- 真·DSH 插件：**1664**
+- 仓库总数：**1796**
+- 真·DSH 插件：**1665**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,7 +18,7 @@
 - **utility** — 342 个仓库，★25750
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
-- **tools** — 565 个仓库，★15357
+- **tools** — 566 个仓库，★15360
 - **session** — 226 个仓库，★15120
 - **ui** — 177 个仓库，★6093
 - **uncategorized** — 1 个仓库，★2189
@@ -800,7 +800,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 
-### tools（565）
+### tools（566）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -989,6 +989,7 @@
 | [gezi-wen/sage-mem](https://github.com/gezi-wen/sage-mem) | (无描述) | (no description) | 4 | JavaScript | yes |
 | [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) | (无描述) | (no description) | 4 | TypeScript | yes |
 | [Airmetro/dsh-update-checker](https://github.com/Airmetro/dsh-update-checker) | DeepSeek Harness (DSH) 更新检测插件：自动检查 npm 最新版并在 GUI 顶部横幅提示，支持中英文跟随系统语言、一键安装更新并重启服务。 | DeepSeek Harness (DSH) update checker plugin: automatically checks the latest npm version  | 4 | JavaScript | yes |
+| [cocofhu/anime-find](https://github.com/cocofhu/anime-find) | DeepSeek Harness 搜番插件：聚合 Mikan、AniBT 和 AnimeGarden，在对话中展示番剧卡片、Bangumi 评分与发布资源。 | Anime search plugin for DeepSeek Harness: aggregates Mikan, AniBT, and AnimeGarden with interactive cards, Bangumi ratings, and releases. | 3 | TypeScript | yes |
 | [coppynight/dsh-doctor](https://github.com/coppynight/dsh-doctor) | flutter-doctor 风格诊断与安全自动修复 | flutter-doctor-style diagnostics and safe auto-repair | 3 | JavaScript | yes |
 | [omdsh-dev/dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) | base64/hex/url 编解码 + 哈希工具 | base64/hex/url codec + hash tool | 3 | TypeScript | yes |
 | [omdsh-dev/dsh-tool-json](https://github.com/omdsh-dev/dsh-tool-json) | JMESPath JSON 查询工具 | JMESPath JSON query tool | 3 | TypeScript | yes |
