@@ -107,6 +107,42 @@ function mdTable(UI, intentKey) {
 }
 
 const REPO_URL = 'https://github.com/leenkcool/Blue-Whale-Harness'
+
+// ---------- light-default theme (switchable to existing dark tone) ----------
+// :root = light (default); :root[data-theme="dark"] = the previous GitHub-dark tone.
+const THEME_CSS = `:root{--bg:#ffffff;--fg:#1f2328;--mut:#636c76;--acc:#0969da;--bd:#d0d7de;--odd:#f6f8fa;--input-bg:#ffffff;--th-bg:#f6f8fa;--yes:#1a7f37}
+:root[data-theme="dark"]{--bg:#0d1117;--fg:#c9d1d9;--mut:#8b949e;--acc:#58a6ff;--bd:#30363d;--odd:#161b22;--input-bg:#0d1117;--th-bg:#161b22;--yes:#3fb950}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+header{padding:16px 20px;border-bottom:1px solid var(--bd);position:sticky;top:0;background:var(--bg);z-index:5}
+h1{margin:0 0 4px;font-size:18px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}
+input,select{background:var(--input-bg);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:6px 8px;font-size:13px}
+input[type=search]{flex:1;min-width:200px}
+.stat{color:var(--mut);font-size:12px}
+table{width:100%;border-collapse:collapse}
+th,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--bd);vertical-align:top}
+th{position:sticky;top:110px;background:var(--th-bg);cursor:pointer;user-select:none;white-space:nowrap}
+th:hover{color:var(--acc)}
+tbody tr:nth-child(odd){background:var(--odd)}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+.tag{display:inline-block;padding:1px 6px;border:1px solid var(--bd);border-radius:10px;font-size:11px;color:var(--mut)}
+.yes{color:var(--yes)}.no{color:var(--mut)}
+.intent{color:var(--mut);max-width:360px}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.repo-link{margin:2px 0 8px;font-size:13px}
+.theme-btn{margin-left:auto;cursor:pointer;background:var(--input-bg);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:6px 10px;font-size:13px}
+`
+// runs in <head> before paint: read saved theme (default light), avoid flash
+const THEME_HEAD = `<script>(function(){try{var t=localStorage.getItem("bw-theme")||"light";document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme="light"}})()</script>\n`
+// toggle button handler + label sync (appended to the page script)
+const THEME_JS = `var themeBtn=document.getElementById("themeBtn");
+function bwUpdThemeBtn(){themeBtn.textContent=document.documentElement.dataset.theme==="dark"?"☀️ 浅色":"🌙 深色";}
+themeBtn.onclick=function(){var t=document.documentElement.dataset.theme==="dark"?"light":"dark";document.documentElement.dataset.theme=t;try{localStorage.setItem("bw-theme",t)}catch(e){}bwUpdThemeBtn();};
+bwUpdThemeBtn();
+`
+
 function htmlDoc(UI, intentKey, extraCols) {
   const C = UI.cols
   const headCols = ['<th data-k="repo">' + C.repo + '</th>',
@@ -142,32 +178,16 @@ function htmlDoc(UI, intentKey, extraCols) {
     + '<meta name="viewport" content="width=device-width,initial-scale=1">\n'
     + '<title>' + UI.title + '</title>\n'
     + '<style>\n'
-    + ':root{--bg:#0d1117;--fg:#c9d1d9;--mut:#8b949e;--acc:#58a6ff;--bd:#30363d;--odd:#161b22}\n'
-    + '*{box-sizing:border-box}\n'
-    + 'body{margin:0;font:14px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}\n'
-    + 'header{padding:16px 20px;border-bottom:1px solid var(--bd);position:sticky;top:0;background:var(--bg);z-index:5}\n'
-    + 'h1{margin:0 0 4px;font-size:18px}\n'
-    + '.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}\n'
-    + 'input,select{background:#0d1117;color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:6px 8px;font-size:13px}\n'
-    + 'input[type=search]{flex:1;min-width:200px}\n'
-    + '.stat{color:var(--mut);font-size:12px}\n'
-    + 'table{width:100%;border-collapse:collapse}\n'
-    + 'th,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--bd);vertical-align:top}\n'
-    + 'th{position:sticky;top:110px;background:#161b22;cursor:pointer;user-select:none;white-space:nowrap}\n'
-    + 'th:hover{color:var(--acc)}\n'
-    + 'tbody tr:nth-child(odd){background:var(--odd)}\n'
-    + 'a{color:var(--acc);text-decoration:none}\n'
-    + 'a:hover{text-decoration:underline}\n'
-    + '.tag{display:inline-block;padding:1px 6px;border:1px solid var(--bd);border-radius:10px;font-size:11px;color:var(--mut)}\n'
-    + '.yes{color:#3fb950}.no{color:#8b949e}\n'
-    + '.intent{color:var(--mut);max-width:360px}\n'
-    + '.num{text-align:right;font-variant-numeric:tabular-nums}\n'
-    + '.repo-link{margin:2px 0 8px;font-size:13px}\n</style></head>\n<body>\n<header>\n<h1>' + UI.title + '</h1>\n<div class="repo-link"><a href="' + REPO_URL + '" target="_blank" rel="noopener">📦 源码仓库 · Blue-Whale-Harness</a></div>\n<div class="bar">\n'
+    + THEME_CSS
+    + '</style></head>\n'
+    + THEME_HEAD
+    + '<body>\n<header>\n<h1>' + UI.title + '</h1>\n<div class="repo-link"><a href="' + REPO_URL + '" target="_blank" rel="noopener">📦 源码仓库 · Blue-Whale-Harness</a></div>\n<div class="bar">\n'
     + '<input type="search" id="q" placeholder="' + UI.search + '">\n'
     + '<select id="cat"><option value="">' + UI.catAll + '</option></select>\n'
     + '<select id="dsh"><option value="">' + UI.all + '</option><option value="yes">' + UI.onlyDsh + '</option><option value="no">' + UI.onlyNon + '</option></select>\n'
     + '<select id="sort">' + sortOpts + '</select>\n'
-    + '<span class="stat" id="cnt"></span>\n</div>\n</header>\n'
+    + '<span class="stat" id="cnt"></span>\n'
+    + '<button class="theme-btn" id="themeBtn"></button>\n</div>\n</header>\n'
     + '<table><thead><tr>\n' + headCols + '\n</tr></thead><tbody id="tb"></tbody></table>\n'
     + '<script>\n'
     + 'const DATA=__DATA__;\n'
@@ -185,6 +205,7 @@ function htmlDoc(UI, intentKey, extraCols) {
     + '}\n'
     + 'q.oninput=render;catSel.onchange=render;dshSel.onchange=render;sortSel.onchange=render;\n'
     + 'document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{sortSel.value=th.dataset.k;sortDir*=-1;render();});\n'
+    + THEME_JS
     + 'render();\n'
     + '</script></body></html>\n'
 }
@@ -235,7 +256,7 @@ const comboRow = 'function rowHtml(r){return \'<tr>\'' +
 const comboHtml = '<!doctype html>\n'
   + '<html lang="zh"><head><meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n'
   + '<title>Blue-Whale-Harness · DSH 插件总表（中英双语）</title>\n'
-  + '<style>\n:root{--bg:#0d1117;--fg:#c9d1d9;--mut:#8b949e;--acc:#58a6ff;--bd:#30363d;--odd:#161b22}\n*{box-sizing:border-box}\nbody{margin:0;font:14px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}\nheader{padding:16px 20px;border-bottom:1px solid var(--bd);position:sticky;top:0;background:var(--bg);z-index:5}\nh1{margin:0 0 4px;font-size:18px}\n.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}\ninput,select{background:#0d1117;color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:6px 8px;font-size:13px}\ninput[type=search]{flex:1;min-width:200px}\n.stat{color:var(--mut);font-size:12px}\ntable{width:100%;border-collapse:collapse}\nth,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--bd);vertical-align:top}\nth{position:sticky;top:110px;background:#161b22;cursor:pointer;user-select:none;white-space:nowrap}\nth:hover{color:var(--acc)}\ntbody tr:nth-child(odd){background:var(--odd)}\na{color:var(--acc);text-decoration:none}\na:hover{text-decoration:underline}\n.tag{display:inline-block;padding:1px 6px;border:1px solid var(--bd);border-radius:10px;font-size:11px;color:var(--mut)}\n.yes{color:#3fb950}.no{color:#8b949e}\n.intent{color:var(--mut);max-width:300px}\n.num{text-align:right;font-variant-numeric:tabular-nums}\n.repo-link{margin:2px 0 8px;font-size:13px}\n</style></head>\n<body>\n<header>\n<h1>Blue-Whale-Harness · DSH 插件总表（中英双语）</h1>\n<div class="repo-link"><a href="' + REPO_URL + '" target="_blank" rel="noopener">📦 源码仓库 · Blue-Whale-Harness</a></div>\n<div class="bar">\n<input type="search" id="q" placeholder="搜索仓库 / 意图 / 分类 / 技术栈…">\n<select id="cat"><option value="">全部分类</option></select>\n<select id="dsh"><option value="">全部</option><option value="yes">仅真·DSH</option><option value="no">仅非DSH</option></select>\n<select id="sort"><option value="stars">按 STAR</option><option value="forks">按 FORK</option><option value="created">按创建时间</option><option value="updated">按更新时间</option><option value="repo">按仓库名</option></select>\n<span class="stat" id="cnt"></span>\n</div>\n</header>\n<table><thead><tr>\n' + comboHead + '\n</tr></thead><tbody id="tb"></tbody></table>\n'
+  + '<style>\n:root{--bg:#ffffff;--fg:#1f2328;--mut:#636c76;--acc:#0969da;--bd:#d0d7de;--odd:#f6f8fa;--input-bg:#ffffff;--th-bg:#f6f8fa;--yes:#1a7f37}:root[data-theme="dark"]{--bg:#0d1117;--fg:#c9d1d9;--mut:#8b949e;--acc:#58a6ff;--bd:#30363d;--odd:#161b22;--input-bg:#0d1117;--th-bg:#161b22;--yes:#3fb950}\n*{box-sizing:border-box}\nbody{margin:0;font:14px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}\nheader{padding:16px 20px;border-bottom:1px solid var(--bd);position:sticky;top:0;background:var(--bg);z-index:5}\nh1{margin:0 0 4px;font-size:18px}\n.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}\ninput,select{background:var(--input-bg);color:var(--fg);border:1px solid var(--bd);border-radius:6px;padding:6px 8px;font-size:13px}\ninput[type=search]{flex:1;min-width:200px}\n.stat{color:var(--mut);font-size:12px}\ntable{width:100%;border-collapse:collapse}\nth,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--bd);vertical-align:top}\nth{position:sticky;top:110px;background:var(--th-bg);cursor:pointer;user-select:none;white-space:nowrap}\nth:hover{color:var(--acc)}\ntbody tr:nth-child(odd){background:var(--odd)}\na{color:var(--acc);text-decoration:none}\na:hover{text-decoration:underline}\n.tag{display:inline-block;padding:1px 6px;border:1px solid var(--bd);border-radius:10px;font-size:11px;color:var(--mut)}\n.yes{color:var(--yes)}.no{color:var(--mut)}\n.intent{color:var(--mut);max-width:300px}\n.num{text-align:right;font-variant-numeric:tabular-nums}\n.repo-link{margin:2px 0 8px;font-size:13px}\n</style></head>\n' + THEME_HEAD + '<body>\n<header>\n<h1>Blue-Whale-Harness · DSH 插件总表（中英双语）</h1>\n<div class="repo-link"><a href="' + REPO_URL + '" target="_blank" rel="noopener">📦 源码仓库 · Blue-Whale-Harness</a></div>\n<div class="bar">\n<input type="search" id="q" placeholder="搜索仓库 / 意图 / 分类 / 技术栈…">\n<select id="cat"><option value="">全部分类</option></select>\n<select id="dsh"><option value="">全部</option><option value="yes">仅真·DSH</option><option value="no">仅非DSH</option></select>\n<select id="sort"><option value="stars">按 STAR</option><option value="forks">按 FORK</option><option value="created">按创建时间</option><option value="updated">按更新时间</option><option value="repo">按仓库名</option></select>\n<span class="stat" id="cnt"></span>\n<button class="theme-btn" id="themeBtn"></button>\n</div>\n</header>\n<table><thead><tr>\n' + comboHead + '\n</tr></thead><tbody id="tb"></tbody></table>\n'
   + '<script>\n'
   + 'const DATA=__DATA__;\n'
   + 'const catSel=document.getElementById("cat"),dshSel=document.getElementById("dsh"),q=document.getElementById("q"),sortSel=document.getElementById("sort"),tb=document.getElementById("tb"),cnt=document.getElementById("cnt");\n'
@@ -245,7 +266,7 @@ const comboHtml = '<!doctype html>\n'
   + comboRow + '\n'
   + 'function render(){\n const qv=q.value.toLowerCase(),cv=catSel.value,dv=dshSel.value,sk=sortSel.value;\n let rows=DATA.filter(d=>(!cv||d.category===cv)&&(!dv||d.isDsh===dv)&&(!qv||(d.repo+" "+d.intentZh+" "+d.intentEn+" "+d.category+" "+d.tech+" "+d.language).toLowerCase().includes(qv)));\n rows.sort((a,b)=>{let x=a[sk],y=b[sk];if(sk==="repo"||sk==="created"||sk==="updated"){x=String(x);y=String(y);return sortDir*x.localeCompare(y);}return sortDir*((x||0)-(y||0));});\n tb.innerHTML=rows.map(rowHtml).join("");\n cnt.textContent=rows.length+" / "+DATA.length+" 个";\n}\n'
   + 'q.oninput=render;catSel.onchange=render;dshSel.onchange=render;sortSel.onchange=render;\n'
-  + 'document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{sortSel.value=th.dataset.k;sortDir*=-1;render();});\nrender();\n'
+  + 'document.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{sortSel.value=th.dataset.k;sortDir*=-1;render();});\n' + THEME_JS + 'render();\n'
   + '</script></body></html>\n'
 writeFileSync(join(__dirname, 'index.html'), comboHtml.replace('__DATA__', dataJson))
 

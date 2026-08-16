@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-15 ｜ 共 **1807** 个仓库 ｜ 真·DSH 插件 **1666** 个
+> 自动生成于 2026-08-16 ｜ 共 **1808** 个仓库 ｜ 真·DSH 插件 **1667** 个
 
 ## 统计
 
-- 仓库总数：**1807**
-- 真·DSH 插件：**1666**
+- 仓库总数：**1808**
+- 真·DSH 插件：**1667**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -17,9 +17,9 @@
 - **llm** — 161 个仓库，★90296
 - **skills** — 51 个仓库，★22933
 - **utility** — 345 个仓库，★17630
-- **orchestration** — 197 个仓库，★15424
+- **orchestration** — 198 个仓库，★15424
 - **session** — 229 个仓库，★14261
-- **tools** — 569 个仓库，★14096
+- **tools** — 569 个仓库，★14108
 - **ui** — 176 个仓库，★4179
 - **uncategorized** — 1 个仓库，★668
 - **sandbox** — 9 个仓库，★175
@@ -603,7 +603,7 @@
 | [qomob/DSHwiki](https://github.com/qomob/DSHwiki) | DeepSeek Harness（dsh）的社区 Wiki 与每日聚合插件目录。从 0 到 1 的原创中文教程，外加自动更新… | Community Wiki and daily-aggregated plugin directory for DeepSeek Harness (dsh). Original  | 0 | JavaScript | yes |
 | [ReachGa0/dsh-desktop](https://github.com/ReachGa0/dsh-desktop) | DeepSeek Harness（dsh web）的 Electron 桌面壳——在独立窗口中运行 harness，无需终端或浏览器 | Electron desktop shell for DeepSeek Harness (dsh web) — run the harness in a standalone wi | 0 | JavaScript | yes |
 
-### orchestration（197）
+### orchestration（198）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -804,8 +804,7 @@
 | [lispking/git-skills](https://github.com/lispking/git-skills) | git-skills — DSH 插件（编排） | A powerful Claude Code Git assistant skill that provides intelligent branch management, co | 0 | unknown | no |
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [houyongsheng/deepseek-harness-molt](https://github.com/houyongsheng/deepseek-harness-molt) | 会自己长出工具的编码智能体。每次任务后反思、写一个可复用工具、测试它，并存入技能库… | The coding agent that grows its own tools. It reflects after each task, writes a reusable  | 0 | Python | yes |
-
-| [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live streaming, Markdown rendering, and a neutral judge. | 0 | TypeScript | yes |
+| [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 
 ### session（229）
 
@@ -1080,6 +1079,7 @@
 | [omdsh-dev/dsh-mnemon](https://github.com/omdsh-dev/dsh-mnemon) | Mnemon 三层记忆体深度集成 | Mnemon three-layer memory deep integration | 16 | JavaScript | yes |
 | [morluto/leantoken](https://github.com/morluto/leantoken) | 面向 agent 的代码智能：找到真正相关的代码。 | Code intelligence for agents: find the code that matters. | 16 | Rust | no |
 | [omdsh-dev/dsh-toolkit](https://github.com/omdsh-dev/dsh-toolkit) | 零依赖工具包合集（time/encoding/json/csv/regex） | Zero-dep toolkit collection | 15 | TypeScript | yes |
+| [Francis-Xavier-code/dsh-balance-plugin](https://github.com/Francis-Xavier-code/dsh-balance-plugin) | deepSeek 余额监控与用量统计（DSH 动态 Cordis 插件）：余额监控 · 官方充值入口 · 用量统计 · 三方插件管理 | DeepSeek balance monitoring & usage statistics (a dynamic DSH Cordis plugin): balance moni | 15 | JavaScript | yes |
 | [lzszq/dsh-scholar](https://github.com/lzszq/dsh-scholar) | dsh-scholar（文献相关） | dsh-scholar (literature) | 14 | TypeScript | yes |
 | [Ayase34/gal-view](https://github.com/Ayase34/gal-view) | (无描述) | (no description) | 14 | JavaScript | yes |
 | [dqsjqian/Aria](https://github.com/dqsjqian/Aria) | 现代 C++20 MVVM 框架——跨平台、分层、协程优先。响应式 DAG（Property/Computed/Effect）、Task<T> 与可插拔适配…… | Modern C++20 MVVM framework — cross-platform, layered, coroutine-first. Reactive DAG (Prop | 14 | C++ | no |
@@ -1222,7 +1222,6 @@
 | [kezboardpj/dsh-skill-loader](https://github.com/kezboardpj/dsh-skill-loader) | (无描述) | (no description) | 3 | JavaScript | yes |
 | [Vim0x3c/dsh-session-manager](https://github.com/Vim0x3c/dsh-session-manager) | (无描述) | (no description) | 3 | TypeScript | yes |
 | [CAPTAIN1275/dsh-ui-web](https://github.com/CAPTAIN1275/dsh-ui-web) | (无描述) | (no description) | 3 | TypeScript | yes |
-| [Francis-Xavier-code/dsh-balance-plugin](https://github.com/Francis-Xavier-code/dsh-balance-plugin) | deepSeek 余额监控与用量统计（DSH 动态 Cordis 插件）：余额监控 · 官方充值入口 · 用量统计 · 三方插件管理 | DeepSeek balance monitoring & usage statistics (a dynamic DSH Cordis plugin): balance monitoring, official top-up entry, usage stats, third-party plugin management. | 15 | JavaScript | yes |
 | [whiteguo233/dsh-cc-connect](https://github.com/whiteguo233/dsh-cc-connect) | 通过 cc-connect 远程使用 DSH | Use DSH remotely via cc-connect | 2 | Go | yes |
 | [renat3u/dsh-paseo](https://github.com/renat3u/dsh-paseo) | DSH 的 paseo 插件扩展支持 | paseo plugin extension support for DSH | 2 | JavaScript | yes |
 | [vibeinging/dsh-trace](https://github.com/vibeinging/dsh-trace) | DSH 遥测后端：导出轮次/步骤/工具 | Telemetry backend exporting turns/steps/tools | 2 | TypeScript | yes |
@@ -1266,7 +1265,7 @@
 | [dongsheng123132/dsh-policy-drift-proof](https://github.com/dongsheng123132/dsh-policy-drift-proof) | DeepSeek Harness 的内容寻址、脱敏策略漂移证据 | Content-addressed, value-redacted policy drift evidence for DeepSeek Harness | 2 | JavaScript | yes |
 | [dongsheng123132/dsh-audit-bundle](https://github.com/dongsheng123132/dsh-audit-bundle) | 跨独立 DeepSeek Harness 证据生产者的内容寻址审计索引 | Content-addressed audit indexes across independent DeepSeek Harness evidence producers | 2 | JavaScript | yes |
 | [dongsheng123132/dsh-recovery-proof](https://github.com/dongsheng123132/dsh-recovery-proof) | DeepSeek Harness 的只读恢复演练证据 | Read-only recovery drill evidence for DeepSeek Harness | 2 | JavaScript | yes |
-| [slywalker2006/dsh-passwords](https://github.com/slywalker2006/dsh-passwords) | dsh-passwords：让 DeepSeek Harness 变成服务器级多租户平台——远程访问 + 自动 HTTPS、子用户权限与配额、沙盒强制、加密认证与审计日志 | dsh-passwords: turns DeepSeek Harness into a server-grade multi-tenant platform - remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth & audit log | 2 | TypeScript | yes |
+| [slywalker2006/dsh-passwords](https://github.com/slywalker2006/dsh-passwords) | dsh-passwords：让 DeepSeek Harness 变成服务器级多租户平台——远程访问 + 自动 HTTPS、子用户权限与配额、沙盒强制、加密认证与审计日志 | dsh-passwords: turns DeepSeek Harness into a server-grade multi-tenant platform - remote a | 2 | TypeScript | yes |
 | [Spirtxiaoqi7/mindspace-dsh-local-rag](https://github.com/Spirtxiaoqi7/mindspace-dsh-local-rag) | 源自 ARPM 的本地混合 RAG 插件，用于 DeepSeek Harness | ARPM-derived local hybrid RAG plugin for DeepSeek Harness | 2 | TypeScript | yes |
 | [MicroMilo/upstream-radar](https://github.com/MicroMilo/upstream-radar) | DeepSeek Harness 插件的常驻漏洞与破坏性变更影响监控。 | Always-on vulnerability and breaking-change impact monitoring for DeepSeek Harness plugins | 2 | TypeScript | yes |
 | [jkrandom-sudo/dsh-ci-doctor](https://github.com/jkrandom-sudo/dsh-ci-doctor) | CI failure, diagnosed before you open the logs — DeepSeek Harness plugin that watches GitH | CI failure, diagnosed before you open the logs — DeepSeek Harness plugin that watches GitH | 2 | TypeScript | yes |

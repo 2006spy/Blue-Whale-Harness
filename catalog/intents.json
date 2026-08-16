@@ -39226,10 +39226,10 @@
   ],
   "manifestType": "none",
   "language": "TypeScript",
-  "intent": "dsh-passwords: DeepSeek Harness login gateway - first-run setup, at-rest encryption, brute-force lockout, audit log, HTTPS",
-  "intentEn": "dsh-passwords: DeepSeek Harness login gateway - first-run setup, at-rest encryption, brute-force lockout, audit log, HTTPS",
-  "intentZh": "dsh-passwords：DeepSeek Harness 登录网关——首次运行配置、静态加密、暴力锁定、审计日志、HTTPS",
-  "zhSource": "hy3",
+  "intent": "dsh-passwords: turns DeepSeek Harness into a server-grade multi-tenant platform - remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth & audit log",
+  "intentEn": "dsh-passwords: turns DeepSeek Harness into a server-grade multi-tenant platform - remote access + auto HTTPS, subuser permissions & quotas, sandbox enforcement, encrypted auth & audit log",
+  "intentZh": "dsh-passwords：让 DeepSeek Harness 变成服务器级多租户平台——远程访问 + 自动 HTTPS、子用户权限与配额、沙盒强制、加密认证与审计日志",
+  "zhSource": "native",
   "enSource": "native",
   "needsReview": false,
   "techStack": [
@@ -39248,7 +39248,7 @@
   "stars": 2,
   "forks": 0,
   "created_at": "2026-08-14T06:35:16Z",
-  "updated_at": "2026-08-14T16:59:43Z",
+  "updated_at": "2026-08-16T00:00:45.075Z",
   "license": "NOASSERTION",
   "open_issues": 0,
   "topics": [
@@ -88634,11 +88634,11 @@
   ],
   "manifestType": "cordis.patch.yml",
   "language": "JavaScript",
-  "intent": "DeepSeek balance monitoring and usage statistics (a dynamic DSH Cordis plugin): balance monitoring, official top-up entry, usage stats, and third-party plugin management.",
-  "intentEn": "DeepSeek balance monitoring and usage statistics (a dynamic DSH Cordis plugin): balance monitoring, official top-up entry, usage stats, and third-party plugin management.",
+  "intent": "DeepSeek balance monitoring & usage statistics (a dynamic DSH Cordis plugin): balance monitoring, official top-up entry, usage stats, third-party plugin management.",
+  "intentEn": "DeepSeek balance monitoring & usage statistics (a dynamic DSH Cordis plugin): balance monitoring, official top-up entry, usage stats, third-party plugin management.",
   "intentZh": "deepSeek 余额监控与用量统计（DSH 动态 Cordis 插件）：余额监控 · 官方充值入口 · 用量统计 · 三方插件管理",
   "zhSource": "native",
-  "enSource": "hy3",
+  "enSource": "native",
   "needsReview": false,
   "techStack": [
    "JavaScript",
@@ -88646,10 +88646,10 @@
   ],
   "keyDeps": [],
   "entry": "lib/index.js",
-  "stars": 3,
+  "stars": 15,
   "forks": 0,
   "created_at": "2026-08-15T00:24:17Z",
-  "updated_at": "2026-08-15T01:47:33Z",
+  "updated_at": "2026-08-16T00:00:45.075Z",
   "license": "MIT",
   "open_issues": 0,
   "topics": [
@@ -88959,5 +88959,47 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-15T14:57:48.812Z"
+ },
+ "lcc815/dsh-debate-plugin": {
+  "repo": "lcc815/dsh-debate-plugin",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "orchestration",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-plugin",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live streaming, Markdown rendering, and a neutral judge.",
+  "intentEn": "Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live streaming, Markdown rendering, and a neutral judge.",
+  "intentZh": "DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T00:00:45.075Z",
+  "updated_at": "2026-08-16T00:00:45.075Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh",
+   "dsh-plugin",
+   "dsh-plugins"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T00:00:45.075Z"
  }
 }
