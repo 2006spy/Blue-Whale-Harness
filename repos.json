@@ -29338,5 +29338,22 @@
   "_lists": [
    "plugin"
   ]
- }
+ },
+ {
+  "repo": "p2coder/dsh-task-control",
+  "name": "dsh-task-control",
+  "category": "session",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Pause, resume and cancel long-running DSH tasks with safe and forced pause modes.",
+  "desc_zh": "为 DSH 长任务提供暂停、恢复和取消控制，支持安全暂停与强制暂停。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+    "plugin"
+  ]
+}
+
 ]
