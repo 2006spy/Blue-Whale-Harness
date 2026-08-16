@@ -975,6 +975,7 @@ QT-Chen/dsh-mic-input
 dongsheng123132/dsh-terminal
 wanzhiwei5/dsh-skin-amis
 xiaobright/dsh-anchored-standard
+iiwish/dsh-testkit
 xiake595/touhou-hakurei
 entireyu/dsh-whalito-desk
 xylt369/dsh-browser
