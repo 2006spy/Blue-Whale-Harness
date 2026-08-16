@@ -4,23 +4,23 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-16 ｜ 共 **1790** 个仓库 ｜ 真·DSH 插件 **1661** 个
+> 自动生成于 2026-08-16 ｜ 共 **1795** 个仓库 ｜ 真·DSH 插件 **1664** 个
 
 ## 统计
 
-- 仓库总数：**1790**
-- 真·DSH 插件：**1661**
+- 仓库总数：**1795**
+- 真·DSH 插件：**1664**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
 
-- **llm** — 160 个仓库，★91933
+- **llm** — 161 个仓库，★91934
 - **utility** — 342 个仓库，★25750
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
-- **tools** — 562 个仓库，★15356
+- **tools** — 565 个仓库，★15357
 - **session** — 226 个仓库，★15120
-- **ui** — 176 个仓库，★6093
+- **ui** — 177 个仓库，★6093
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
 - **sandbox** — 9 个仓库，★191
@@ -31,7 +31,7 @@
 
 > 按分类分组，组内按 STAR 倒序。点击仓库名跳转原项目。
 
-### llm（160）
+### llm（161）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -184,6 +184,7 @@
 | [yan5236/slcatwujian-dsh-vision-plugin](https://github.com/yan5236/slcatwujian-dsh-vision-plugin) | 让不支持图片输入的主模型通过已配置的视觉模型理解图片的 DSH 插件：自动桥接、像素坐标描述、vision_ask 追问工具与设置页 | A DSH plugin that lets the main model (which lacks image input) understand images via a co | 1 | JavaScript | yes |
 | [v587d/dsh-multimodal-skill](https://github.com/v587d/dsh-multimodal-skill) | 给纯文本 LLM 一双慧眼。 一个 DeepSeek Harness（DSH）原生 skill + 零依赖 Python CLI， 为 DeepSeek 等纯文本模型补上图像理解与 | Give a text-only LLM a pair of wise eyes. A native DeepSeek Harness (DSH) skill + zero-dep | 1 | Python | yes |
 | [ZhuXinAI/sidesight](https://github.com/ZhuXinAI/sidesight) | sidesight — DSH 插件（模型） | CLI-first vision sidecar for text-only coding agents. Analyze screenshots, diagrams, chart | 1 | TypeScript | yes |
+| [siegfly/dsh-deepseek-vision](https://github.com/siegfly/dsh-deepseek-vision) | 视觉语言网关：注册支持图片输入的 DeepSeek provider 路由，图片先由可配置 VL 模型（默认 Qwen-VL）描述成文字再发送。 | A vision-language gateway provider route: pasted images are described by a configurable VL | 1 | TypeScript | yes |
 | [jasper-zsh/dsh-plugin-llm-codex](https://github.com/jasper-zsh/dsh-plugin-llm-codex) | dsh-plugin-llm-codex — DSH 插件（模型） | dsh-plugin-llm-codex — a DSH plugin (model). | 0 | TypeScript | yes |
 | [csiroqa/dsh-plugin-usage-report](https://github.com/csiroqa/dsh-plugin-usage-report) | dsh-plugin-usage-report — DSH 插件（模型） | DSH usage report: daily/monthly token & cost aggregation, alerts. | 0 | TypeScript | yes |
 | [Chungor/owlx-mcp](https://github.com/Chungor/owlx-mcp) | owlx-mcp — DSH 插件（模型） | OwlX MCP server - live crypto structure scores, MemeSniper, token financials and recorded  | 0 | unknown | yes |
@@ -799,7 +800,7 @@
 | [sisyphus-iambe/northstar-exam](https://github.com/sisyphus-iambe/northstar-exam) | northstar-exam — DSH 插件（编排） | Trust checkpoint for AI-generated code, agent reports & embodied-AI artifacts — the exam h | 0 | Python | yes |
 | [lcc815/dsh-debate-plugin](https://github.com/lcc815/dsh-debate-plugin) | DeepSeek Harness 辩论插件：立场锁定的正反 subagent 逐轮交锋，支持流式输出、Markdown 渲染与中立评审。 | Adversarial pro/con debate plugin for DeepSeek Harness with stance-locked subagents, live  | 0 | TypeScript | yes |
 
-### tools（562）
+### tools（565）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1321,6 +1322,7 @@
 | [sunyuhuirong/deepseek-account](https://github.com/sunyuhuirong/deepseek-account) | (无描述) | (no description) | 1 | TypeScript | yes |
 | [BingChanCN/fabric-theme-studio](https://github.com/BingChanCN/fabric-theme-studio) | (无描述) | (no description) | 1 | TypeScript | yes |
 | [lmst2/dsh-asc](https://github.com/lmst2/dsh-asc) | (无描述) | (no description) | 1 | TypeScript | yes |
+| [iiwish/dsh-testkit](https://github.com/iiwish/dsh-testkit) | 面向 DeepSeek Harness 插件的生命周期一致性测试工具。 | Lifecycle conformance testing for DeepSeek Harness plugins. | 1 | TypeScript | yes |
 | [AtomicsLaboratory/atomstudio](https://github.com/AtomicsLaboratory/atomstudio) | 可执行文档工程环境 | Document engineering environment for executable documents | 0 | JavaScript | no |
 | [lonelymoon87/dsh-code-intel](https://github.com/lonelymoon87/dsh-code-intel) | dsh-code-intel — DSH 插件（工具） | Symbol-aware code indexing and hybrid search for DeepSeek Harness. | 0 | TypeScript | yes |
 | [userInner/dsh-academic-research](https://github.com/userInner/dsh-academic-research) | dsh-academic-research — DSH 插件（工具） | Evidence-grounded bilingual academic research plugin for DeepSeek Harness and OnPeople | 0 | TypeScript | yes |
@@ -1365,6 +1367,8 @@
 | [TT432/dsh-dcp](https://github.com/TT432/dsh-dcp) | (无描述) | (no description) | 0 | JavaScript | yes |
 | [yauntyour/DSH-Multimodal](https://github.com/yauntyour/DSH-Multimodal) | DSH 多模态输入插件：为不同类型的文件（图片 / 视频 / 音频 / 文本）配置独立的处理模型链，在文件进入会话模型之前，先用预设模型把它处理成 Prompt Tokens（文本 | DSH multimodal input plugin: configures an independent processing model chain for each fil | 0 | TypeScript | yes |
 | [Junius-Q/dsh-for-obsidian](https://github.com/Junius-Q/dsh-for-obsidian) | 在 Obsidian 中使用 DeepSeek Harness（dsh）——一个仿 Claudian 风格的本地 AI 智能体，处理你的 vault。 | Use DeepSeek Harness (dsh) inside Obsidian — a local AI agent in a Claudian-style interfac | 0 | TypeScript | yes |
+| [988hj7tczd-oss/dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) | Computer Use 插件：虚拟鼠标真人操作 for DeepSeek Harness（screen_observe + computer_click 等 11 个模型友好工具 | Computer-use plugin for DeepSeek Harness: a virtual mouse that operates like a human, with | 0 | JavaScript | yes |
+| [988hj7tczd-oss/awesome-dsh-plugin](https://github.com/988hj7tczd-oss/awesome-dsh-plugin) | DeepSeek Harness 插件精选列表（awesome list）。 | A curated list of plugins for DeepSeek Harness (dsh). | 0 | Python | no |
 
 ### session（226）
 
@@ -1597,7 +1601,7 @@
 | [mario03690/dsh-netcafe](https://github.com/mario03690/dsh-netcafe) | DeepSeek Harness 捆绑包：接入 AI NetCafé 托管的成果工具（带对账的报表提取、SQL 方言转译、大陆…） | DeepSeek Harness bundle: adds AI NetCafé's hosted outcome tools (statement extraction with | 0 | unknown | yes |
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
 
-### ui（176）
+### ui（177）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1777,6 +1781,7 @@
 | [FrankZhangIronly/dsh-system-control](https://github.com/FrankZhangIronly/dsh-system-control) | DSH Web 插件：侧栏底部的系统菜单（重启 / 关机）。重启 = exit 42，关机 = exit 0，仅回环 RPC。 | DSH web plugin: System menu (Restart / Shutdown) in the sidebar footer. Restart = exit 42, | 0 | JavaScript | yes |
 | [penguinpanda/sebastian-kitchen-board](https://github.com/penguinpanda/sebastian-kitchen-board) | Sebastian 是面向 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 的家庭厨房与生活 | Sebastian is a family kitchen & life assistant for [DeepSeek Harness](https://github.com/d | 0 | JavaScript | yes |
 | [JueMing2049/deepseek-skin-studio](https://github.com/JueMing2049/deepseek-skin-studio) | DSH 换肤工作室：一张图一套皮肤；书签/CDP/原生三通道注入 + 可视化工坊 + 13 套内置主题 + DSH-SKIN-SPEC 导出。 | DSH skin studio: turn one image into a Web UI skin; bookmark/CDP/native injection, visual  | 0 | JavaScript | yes |
+| [988hj7tczd-oss/harness-desktop](https://github.com/988hj7tczd-oss/harness-desktop) | 开箱即用的 DeepSeek Harness 桌面客户端（npm / Homebrew / Releases / Gitee 镜像，支持 macOS / Windows / Lin | Out-of-the-box desktop client for DeepSeek Harness (npm / Homebrew / Releases / Gitee mirr | 0 | TypeScript | no |
 
 ### uncategorized（1）
 

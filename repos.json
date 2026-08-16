@@ -29278,5 +29278,65 @@
   "_lists": [
    "plugin"
   ]
+ },
+ {
+  "repo": "988hj7tczd-oss/harness-desktop",
+  "name": "harness-desktop",
+  "category": "ui",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "Out-of-the-box desktop client for DeepSeek Harness (npm / Homebrew / Releases / Gitee mirror; macOS / Windows / Linux).",
+  "desc_zh": "开箱即用的 DeepSeek Harness 桌面客户端（npm / Homebrew / Releases / Gitee 镜像，支持 macOS / Windows / Linux）。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": []
+ },
+ {
+  "repo": "988hj7tczd-oss/dsh-computer-use",
+  "name": "dsh-computer-use",
+  "category": "tools",
+  "language": "JavaScript",
+  "license": "MIT",
+  "stars": 0,
+  "compat": "ok",
+  "desc_en": "Computer-use plugin for DeepSeek Harness: a virtual mouse that operates like a human, with 11 model-friendly tools (screen_observe, computer_click, …) over a cross-platform cua-driver engine.",
+  "desc_zh": "Computer Use 插件：虚拟鼠标真人操作 for DeepSeek Harness（screen_observe + computer_click 等 11 个模型友好工具，跨平台 cua-driver 引擎）。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
+ },
+ {
+  "repo": "988hj7tczd-oss/awesome-dsh-plugin",
+  "name": "awesome-dsh-plugin",
+  "category": "tools",
+  "language": "Python",
+  "license": "CC0-1.0",
+  "stars": 0,
+  "compat": "unknown",
+  "desc_en": "A curated list of plugins for DeepSeek Harness (dsh).",
+  "desc_zh": "DeepSeek Harness 插件精选列表（awesome list）。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": []
+ },
+ {
+  "repo": "iiwish/dsh-testkit",
+  "name": "dsh-testkit",
+  "category": "tools",
+  "language": "TypeScript",
+  "license": "MIT",
+  "stars": 1,
+  "compat": "ok",
+  "desc_en": "Lifecycle conformance testing for DeepSeek Harness plugins.",
+  "desc_zh": "面向 DeepSeek Harness 插件的生命周期一致性测试工具。",
+  "sourceNote": "PR 收录",
+  "featured": false,
+  "_lists": [
+   "plugin"
+  ]
  }
 ]

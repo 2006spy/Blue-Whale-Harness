@@ -88300,5 +88300,235 @@
   "compat": "unknown",
   "featured": false,
   "analyzed_at": "2026-08-16T00:00:45.075Z"
+ },
+ "siegfly/dsh-deepseek-vision": {
+  "repo": "siegfly/dsh-deepseek-vision",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "llm",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "A vision-language gateway provider route: pasted images are described by a configurable VL model (Qwen-VL by default) before the DeepSeek wire.",
+  "intentEn": "A vision-language gateway provider route: pasted images are described by a configurable VL model (Qwen-VL by default) before the DeepSeek wire.",
+  "intentZh": "视觉语言网关：注册支持图片输入的 DeepSeek provider 路由，图片先由可配置 VL 模型（默认 Qwen-VL）描述成文字再发送。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "typescript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-15",
+  "updated_at": "2026-08-16",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "coding-agent",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "llm-gateway",
+   "multimodal",
+   "plugin",
+   "qwen-vl",
+   "vision-language"
+  ],
+  "cloned": false,
+  "compat": "ok",
+  "featured": false,
+  "analyzed_at": "2026-08-16T01:58:12.948Z"
+ },
+ "988hj7tczd-oss/harness-desktop": {
+  "repo": "988hj7tczd-oss/harness-desktop",
+  "lists": [],
+  "dshCategory": "ui",
+  "isDshPlugin": false,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "dsh-desktop"
+  ],
+  "manifestType": "none",
+  "language": "TypeScript",
+  "intent": "Out-of-the-box desktop client for DeepSeek Harness (npm / Homebrew / Releases / Gitee mirror; macOS / Windows / Linux).",
+  "intentEn": "Out-of-the-box desktop client for DeepSeek Harness (npm / Homebrew / Releases / Gitee mirror; macOS / Windows / Linux).",
+  "intentZh": "开箱即用的 DeepSeek Harness 桌面客户端（npm / Homebrew / Releases / Gitee 镜像，支持 macOS / Windows / Linux）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "typescript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-14",
+  "updated_at": "2026-08-16",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "ai-agent",
+   "chatbot",
+   "deepseek",
+   "deepseek-harness",
+   "desktop-app",
+   "dsh-desktop",
+   "dsh-plugin",
+   "electron",
+   "linux",
+   "llm",
+   "macos",
+   "react",
+   "typescript",
+   "windows"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T01:58:12.948Z"
+ },
+ "988hj7tczd-oss/dsh-computer-use": {
+  "repo": "988hj7tczd-oss/dsh-computer-use",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Computer-use plugin for DeepSeek Harness: a virtual mouse that operates like a human, with 11 model-friendly tools (screen_observe, computer_click, …) over a cross-platform cua-driver engine.",
+  "intentEn": "Computer-use plugin for DeepSeek Harness: a virtual mouse that operates like a human, with 11 model-friendly tools (screen_observe, computer_click, …) over a cross-platform cua-driver engine.",
+  "intentZh": "Computer Use 插件：虚拟鼠标真人操作 for DeepSeek Harness（screen_observe + computer_click 等 11 个模型友好工具，跨平台 cua-driver 引擎）。",
+  "zhSource": "native",
+  "enSource": "hy3",
+  "needsReview": false,
+  "techStack": [
+   "javascript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-15",
+  "updated_at": "2026-08-16",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "ai-agents",
+   "computer-use",
+   "cua-driver",
+   "deepseek-harness",
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "ok",
+  "featured": false,
+  "analyzed_at": "2026-08-16T01:58:12.948Z"
+ },
+ "988hj7tczd-oss/awesome-dsh-plugin": {
+  "repo": "988hj7tczd-oss/awesome-dsh-plugin",
+  "lists": [],
+  "dshCategory": "tools",
+  "isDshPlugin": false,
+  "dshSignals": [
+   "readme-mentions-dsh",
+   "awesome-list"
+  ],
+  "manifestType": "none",
+  "language": "Python",
+  "intent": "A curated list of plugins for DeepSeek Harness (dsh).",
+  "intentEn": "A curated list of plugins for DeepSeek Harness (dsh).",
+  "intentZh": "DeepSeek Harness 插件精选列表（awesome list）。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "python"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16",
+  "updated_at": "2026-08-16",
+  "license": "CC0-1.0",
+  "open_issues": 0,
+  "topics": [
+   "ai-agent",
+   "awesome",
+   "awesome-list",
+   "curated-list",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "llm",
+   "plugin-list",
+   "plugins",
+   "resources"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T01:58:12.948Z"
+ },
+ "iiwish/dsh-testkit": {
+  "repo": "iiwish/dsh-testkit",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "keyword-dsh",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "Lifecycle conformance testing for DeepSeek Harness plugins.",
+  "intentEn": "Lifecycle conformance testing for DeepSeek Harness plugins.",
+  "intentZh": "面向 DeepSeek Harness 插件的生命周期一致性测试工具。",
+  "zhSource": "hy3",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "typescript"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 1,
+  "forks": 0,
+  "created_at": "2026-08-15",
+  "updated_at": "2026-08-15",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "integration-testing",
+   "plugin-testing"
+  ],
+  "cloned": false,
+  "compat": "ok",
+  "featured": false,
+  "analyzed_at": "2026-08-16T01:58:12.948Z"
  }
 }
