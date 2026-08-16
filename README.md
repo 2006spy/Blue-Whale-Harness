@@ -4,12 +4,12 @@
 
 🌐 **在线总表：[leenkcool.github.io](https://leenkcool.github.io)** — 支持中英文搜索、分类筛选、按 STAR 排序的交互式目录。
 
-> 自动生成于 2026-08-16 ｜ 共 **1796** 个仓库 ｜ 真·DSH 插件 **1665** 个
+> 自动生成于 2026-08-16 ｜ 共 **1797** 个仓库 ｜ 真·DSH 插件 **1666** 个
 
 ## 统计
 
-- 仓库总数：**1796**
-- 真·DSH 插件：**1665**
+- 仓库总数：**1797**
+- 真·DSH 插件：**1666**
 - 在线浏览：https://leenkcool.github.io （[中文版](https://leenkcool.github.io/plugins.zh.html) ｜ [English](https://leenkcool.github.io/plugins.en.html) ｜ [CSV 数据](https://leenkcool.github.io/plugins.csv)）
 
 ## 分类索引
@@ -18,8 +18,8 @@
 - **utility** — 342 个仓库，★25750
 - **skills** — 49 个仓库，★23452
 - **orchestration** — 197 个仓库，★16017
-- **tools** — 566 个仓库，★15360
-- **session** — 226 个仓库，★15120
+- **tools** — 566 个仓库，★15361
+- **session** — 227 个仓库，★15120
 - **ui** — 177 个仓库，★6093
 - **uncategorized** — 1 个仓库，★2189
 - **acp** — 65 个仓库，★268
@@ -989,7 +989,7 @@
 | [gezi-wen/sage-mem](https://github.com/gezi-wen/sage-mem) | (无描述) | (no description) | 4 | JavaScript | yes |
 | [cdxiaodong/dsh-guardian](https://github.com/cdxiaodong/dsh-guardian) | (无描述) | (no description) | 4 | TypeScript | yes |
 | [Airmetro/dsh-update-checker](https://github.com/Airmetro/dsh-update-checker) | DeepSeek Harness (DSH) 更新检测插件：自动检查 npm 最新版并在 GUI 顶部横幅提示，支持中英文跟随系统语言、一键安装更新并重启服务。 | DeepSeek Harness (DSH) update checker plugin: automatically checks the latest npm version  | 4 | JavaScript | yes |
-| [cocofhu/anime-find](https://github.com/cocofhu/anime-find) | DeepSeek Harness 搜番插件：聚合 Mikan、AniBT 和 AnimeGarden，在对话中展示番剧卡片、Bangumi 评分与发布资源。 | Anime search plugin for DeepSeek Harness: aggregates Mikan, AniBT, and AnimeGarden with interactive cards, Bangumi ratings, and releases. | 3 | TypeScript | yes |
+| [cocofhu/anime-find](https://github.com/cocofhu/anime-find) | DeepSeek Harness 搜番插件：对话内多源搜索番剧，卡片展示 Bangumi 评分与详情，支持复制磁力。 | DeepSeek Harness anime-search plugin: search anime across multiple sources in-chat, show B | 4 | TypeScript | yes |
 | [coppynight/dsh-doctor](https://github.com/coppynight/dsh-doctor) | flutter-doctor 风格诊断与安全自动修复 | flutter-doctor-style diagnostics and safe auto-repair | 3 | JavaScript | yes |
 | [omdsh-dev/dsh-tool-encoding](https://github.com/omdsh-dev/dsh-tool-encoding) | base64/hex/url 编解码 + 哈希工具 | base64/hex/url codec + hash tool | 3 | TypeScript | yes |
 | [omdsh-dev/dsh-tool-json](https://github.com/omdsh-dev/dsh-tool-json) | JMESPath JSON 查询工具 | JMESPath JSON query tool | 3 | TypeScript | yes |
@@ -1371,7 +1371,7 @@
 | [988hj7tczd-oss/dsh-computer-use](https://github.com/988hj7tczd-oss/dsh-computer-use) | Computer Use 插件：虚拟鼠标真人操作 for DeepSeek Harness（screen_observe + computer_click 等 11 个模型友好工具 | Computer-use plugin for DeepSeek Harness: a virtual mouse that operates like a human, with | 0 | JavaScript | yes |
 | [988hj7tczd-oss/awesome-dsh-plugin](https://github.com/988hj7tczd-oss/awesome-dsh-plugin) | DeepSeek Harness 插件精选列表（awesome list）。 | A curated list of plugins for DeepSeek Harness (dsh). | 0 | Python | no |
 
-### session（226）
+### session（227）
 
 | 仓库 | 意图(中文) | Intent(English) | STAR | 语言 | 真DSH |
 |---|---|---|---|---|---|
@@ -1601,6 +1601,7 @@
 | [NexusAgentX/dsh-mcp-adapter](https://github.com/NexusAgentX/dsh-mcp-adapter) | DeepSeek Harness 的 MCP 适配器——用一个代理工具替代把所有 MCP Schema 倾入上下文 | MCP adapter for DeepSeek Harness — one proxy tool instead of dumping every MCP schema into | 0 | TypeScript | yes |
 | [mario03690/dsh-netcafe](https://github.com/mario03690/dsh-netcafe) | DeepSeek Harness 捆绑包：接入 AI NetCafé 托管的成果工具（带对账的报表提取、SQL 方言转译、大陆…） | DeepSeek Harness bundle: adds AI NetCafé's hosted outcome tools (statement extraction with | 0 | unknown | yes |
 | [zzy2210/dsh-subagent-status](https://github.com/zzy2210/dsh-subagent-status) | DeepSeek Harness 常驻插件:在会话标题栏显示主代理与每个子代理实际使用的模型和思考档位 | Persistent DSH web plugin: shows the | Persistent DSH web plugin: shows the model & reasoning effort actually used by the main ag | 0 | JavaScript | yes |
+| [p2coder/dsh-task-control](https://github.com/p2coder/dsh-task-control) | 为 DSH 长任务提供暂停、恢复和取消控制，支持安全暂停与强制暂停。 | Pause, resume and cancel long-running DSH tasks with safe and forced pause modes. | 0 | JavaScript | yes |
 
 ### ui（177）
 

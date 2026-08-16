@@ -88530,5 +88530,95 @@
   "compat": "ok",
   "featured": false,
   "analyzed_at": "2026-08-16T01:58:12.948Z"
+ },
+ "cocofhu/anime-find": {
+  "repo": "cocofhu/anime-find",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "tools",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic",
+   "readme-mentions-dsh"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "TypeScript",
+  "intent": "DeepSeek Harness anime-search plugin: search anime across multiple sources in-chat, show Bangumi ratings and details in cards, and copy magnet links.",
+  "intentEn": "DeepSeek Harness anime-search plugin: search anime across multiple sources in-chat, show Bangumi ratings and details in cards, and copy magnet links.",
+  "intentZh": "DeepSeek Harness 搜番插件：对话内多源搜索番剧，卡片展示 Bangumi 评分与详情，支持复制磁力。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "TypeScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 4,
+  "forks": 0,
+  "created_at": "2026-08-16T02:28:09.102Z",
+  "updated_at": "2026-08-16T02:28:09.102Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "anime",
+   "anime-search",
+   "bangumi",
+   "deepseek",
+   "deepseek-harness",
+   "dsh",
+   "dsh-plugin",
+   "magnet",
+   "mikan",
+   "plugin",
+   "torrent",
+   "typescript"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T02:28:09.102Z"
+ },
+ "p2coder/dsh-task-control": {
+  "repo": "p2coder/dsh-task-control",
+  "lists": [
+   "plugin"
+  ],
+  "dshCategory": "session",
+  "isDshPlugin": true,
+  "dshSignals": [
+   "cordis.patch.yml",
+   "dsh-plugin-topic"
+  ],
+  "manifestType": "cordis.patch.yml",
+  "language": "JavaScript",
+  "intent": "Pause, resume and cancel long-running DSH tasks with safe and forced pause modes.",
+  "intentEn": "Pause, resume and cancel long-running DSH tasks with safe and forced pause modes.",
+  "intentZh": "为 DSH 长任务提供暂停、恢复和取消控制，支持安全暂停与强制暂停。",
+  "zhSource": "native",
+  "enSource": "native",
+  "needsReview": false,
+  "techStack": [
+   "JavaScript",
+   "esm"
+  ],
+  "keyDeps": [],
+  "entry": null,
+  "stars": 0,
+  "forks": 0,
+  "created_at": "2026-08-16T02:28:09.102Z",
+  "updated_at": "2026-08-16T02:28:09.102Z",
+  "license": "MIT",
+  "open_issues": 0,
+  "topics": [
+   "dsh-plugin"
+  ],
+  "cloned": false,
+  "compat": "unknown",
+  "featured": false,
+  "analyzed_at": "2026-08-16T02:28:09.102Z"
  }
 }
